@@ -1,4 +1,4 @@
-package com.codecool.adfinder.parser.olx.urlgetter;
+package com.codecool.adfinder.parser.olx.utils;
 
 import java.util.regex.Pattern;
 
