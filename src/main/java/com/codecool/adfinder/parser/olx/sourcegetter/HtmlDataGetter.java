@@ -20,11 +20,6 @@ public class HtmlDataGetter {
     private Document source;
     private String title;
     private Map<String, String> properties;
-    private Integer streetLength;
-
-    public Integer getStreetLength() {
-        return streetLength;
-    }
 
     public String getUrl() {
         return url;
@@ -68,7 +63,6 @@ public class HtmlDataGetter {
         price = getPriceFromSource();
         title = getTitleFromSource();
         amountOfRooms = getRoomsFromSource();
-        streetLength = getLengthOfStreet();
     }
 
     private Integer getLengthOfStreet() {

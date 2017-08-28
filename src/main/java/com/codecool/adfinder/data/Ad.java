@@ -1,6 +1,7 @@
 package com.codecool.adfinder.data;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 public class Ad {

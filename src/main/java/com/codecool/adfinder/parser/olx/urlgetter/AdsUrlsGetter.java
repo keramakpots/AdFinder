@@ -4,10 +4,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Set;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,7 +12,7 @@ public class AdsUrlsGetter {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
-    private final Integer maxPage = 35;
+    private final Integer maxPage = 3;
     private Integer currentPageNumber;
     private List<Document> listOfHtmlPages;
     private Set<String> urls;
@@ -25,11 +22,11 @@ public class AdsUrlsGetter {
         getUrlsFromHtmlPages();
     }
 
-    public String getUrl() throws IllegalAccessException {
+    public Set<String> getUrls() {
         if(isUrlsSet) {
-            return url;
+            return urls;
         }
-        throw new IllegalAccessException("Urls are not parsed");
+        return null;
     }
 
     private void getUrlsFromHtmlPages() {
@@ -66,7 +63,9 @@ public class AdsUrlsGetter {
 
 
     private void createListOfDocuments() throws IOException {
+        currentPageNumber = 1;
         while (currentPageNumber < maxPage) {
+            listOfHtmlPages = new ArrayList<>();
             String currentUrl = url+page+ currentPageNumber;
             Document sourceHtml = Jsoup.connect(currentUrl).get();
             listOfHtmlPages.add(sourceHtml);

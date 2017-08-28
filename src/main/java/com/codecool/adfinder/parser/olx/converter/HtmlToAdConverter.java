@@ -1,4 +1,4 @@
-package com.codecool.adfinder.parser.olx;
+package com.codecool.adfinder.parser.olx.converter;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.parser.olx.sourcegetter.HtmlDataGetter;
