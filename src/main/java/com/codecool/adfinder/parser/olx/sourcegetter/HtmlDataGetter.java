@@ -74,6 +74,9 @@ public class HtmlDataGetter {
 
     private Integer getRoomsFromSource() {
         String rooms = properties.get("Liczba pokoi");
+        if (rooms == null){
+            return null;
+        }
         if (rooms.equals("Kawalerka")) {
             return 1;
         }

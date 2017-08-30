@@ -37,7 +37,6 @@ public class AdController {
         for (Ad ad :
                 htmlToAdConverter.getAdFromSource()) {
             adServices.add(ad);
-            System.out.println(ad.getUrl());
         }
         return "done";
     }

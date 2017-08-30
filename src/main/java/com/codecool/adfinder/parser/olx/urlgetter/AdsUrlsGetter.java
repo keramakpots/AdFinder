@@ -12,7 +12,7 @@ public class AdsUrlsGetter {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
-    private final Integer maxPage = 3;
+    private final Integer maxPage = 35;
     private Integer currentPageNumber;
     private List<Document> listOfHtmlPages;
     private Set<String> urls;
@@ -64,8 +64,8 @@ public class AdsUrlsGetter {
 
     private void createListOfDocuments() throws IOException {
         currentPageNumber = 1;
+        listOfHtmlPages = new ArrayList<>();
         while (currentPageNumber < maxPage) {
-            listOfHtmlPages = new ArrayList<>();
             String currentUrl = url+page+ currentPageNumber;
             Document sourceHtml = Jsoup.connect(currentUrl).get();
             listOfHtmlPages.add(sourceHtml);
