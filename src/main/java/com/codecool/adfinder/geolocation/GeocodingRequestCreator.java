@@ -1,6 +1,6 @@
 package com.codecool.adfinder.geolocation;
 
-import com.codecool.adfinder.user.UserRequest;
+import com.codecool.adfinder.user.request.UserRequest;
 import com.google.maps.DirectionsApi;
 import com.google.maps.DistanceMatrixApiRequest;
 import com.google.maps.GeoApiContext;

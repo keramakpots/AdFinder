@@ -1,4 +1,4 @@
-package com.codecool.adfinder.user;
+package com.codecool.adfinder.user.request;
 
 public class UserRequest {
     private Integer minPrice;

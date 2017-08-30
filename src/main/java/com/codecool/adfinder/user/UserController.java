@@ -2,14 +2,11 @@ package com.codecool.adfinder.user;
 
 import com.codecool.adfinder.data.AdServices;
 import com.codecool.adfinder.data.ExtendAd;
+import com.codecool.adfinder.user.request.UserRequest;
+import com.codecool.adfinder.user.response.ResponseHandler;
+import com.codecool.adfinder.user.response.UserResponse;
 import com.google.gson.Gson;
-import com.google.maps.DirectionsApi;
-import com.google.maps.DistanceMatrixApi;
-import com.google.maps.GeoApiContext;
 import com.google.maps.errors.ApiException;
-import com.google.maps.model.DistanceMatrix;
-import com.google.maps.model.TravelMode;
-import com.google.maps.model.Unit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -3,7 +3,7 @@ package com.codecool.adfinder.data;
 import com.codecool.adfinder.geolocation.GeocodingRequestCreator;
 import com.codecool.adfinder.geolocation.GeocodingRequestSender;
 import com.codecool.adfinder.geolocation.GeocodingResponseGetter;
-import com.codecool.adfinder.user.UserRequest;
+import com.codecool.adfinder.user.request.UserRequest;
 import com.google.maps.errors.ApiException;
 
 import java.io.IOException;

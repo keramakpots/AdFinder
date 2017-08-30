@@ -1,17 +1,13 @@
-package com.codecool.adfinder.controller;
+package com.codecool.adfinder.utilcontroller;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.data.AdServices;
 import com.codecool.adfinder.parser.olx.converter.HtmlToAdConverter;
 import com.codecool.adfinder.parser.olx.sourcegetter.HtmlDataGetter;
 import com.codecool.adfinder.parser.olx.urlgetter.AdsUrlsGetter;
-import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.io.IOException;
 import java.util.ArrayList;

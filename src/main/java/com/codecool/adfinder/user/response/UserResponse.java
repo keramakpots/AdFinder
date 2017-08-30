@@ -1,4 +1,4 @@
-package com.codecool.adfinder.user;
+package com.codecool.adfinder.user.response;
 
 import com.codecool.adfinder.data.ExtendAd;
 

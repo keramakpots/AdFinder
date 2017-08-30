@@ -1,7 +1,8 @@
-package com.codecool.adfinder.user;
+package com.codecool.adfinder.user.response;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.data.ExtendAd;
+import com.codecool.adfinder.user.request.UserRequest;
 import com.google.maps.errors.ApiException;
 
 import java.io.IOException;
