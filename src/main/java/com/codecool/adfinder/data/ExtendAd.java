@@ -11,8 +11,8 @@ import java.io.IOException;
 public class ExtendAd extends Ad {
     private Ad ad;
     private String destinationStreet;
-    private long duration;
-    private long distance;
+    private Integer duration;
+    private Integer distance;
 
     public ExtendAd(Ad ad, UserRequest userRequest) throws InterruptedException, ApiException, IOException {
         this.ad = ad;
@@ -73,7 +73,7 @@ public class ExtendAd extends Ad {
         requestCreator.createMatrixApi();
         GeocodingRequestSender requestSender = new GeocodingRequestSender(requestCreator);
         GeocodingResponseGetter responseGetter = new GeocodingResponseGetter(requestSender.sendGeocodingRequest());
-        duration = responseGetter.getDuration();
-        distance = responseGetter.getDistance();
+        duration = Math.toIntExact(responseGetter.getDuration());
+        distance = Math.toIntExact(responseGetter.getDistance());
     }
 }

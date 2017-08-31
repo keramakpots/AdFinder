@@ -11,9 +11,8 @@ import java.util.List;
 
 public class ResponseHandler {
     public List<ExtendAd> getResult(AdServices adServices, UserRequest userRequest) throws InterruptedException, ApiException, IOException {
-        List<Ad> list = adServices.getAdsByMinPriceAndMaxPriceAndRooms(userRequest.getMinPrice(), userRequest.getMaxPrice(), userRequest.getRooms());
-        ResultGetter resultGetter = new ResultGetter(list);
-        FilterResults filterResults = new FilterResults(userRequest, resultGetter.getAdToProcessing());
-        return filterResults.getFiltredResults();
+        List<Ad> adList = adServices.getAdsByMinPriceAndMaxPriceAndRooms(userRequest.getMinPrice(), userRequest.getMaxPrice(), userRequest.getRooms());
+        FilterResults filterResults = new FilterResults(userRequest, adList);
+        return filterResults.getFilteredResults();
     }
 }

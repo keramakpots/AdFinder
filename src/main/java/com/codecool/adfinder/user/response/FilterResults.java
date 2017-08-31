@@ -8,6 +8,7 @@ import com.google.maps.errors.ApiException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FilterResults {
     private UserRequest userRequest;
@@ -26,13 +27,11 @@ public class FilterResults {
         }
     }
 
-    public List<ExtendAd> getFiltredResults() {
-        for (int i = 0; i < extendAdList.size(); i++) {
-            if (extendAdList.get(i).getDistance() > userRequest.getMaxDistance() || extendAdList.get(i).getDuration() > userRequest.getMaxDuration()) {
-                extendAdList.remove(i);
-            }
-        }
-        return extendAdList;
+    public List<ExtendAd> getFilteredResults() {
+        return extendAdList.stream()
+                .filter(ad -> ad.getDuration() <= userRequest.getMaxDuration())
+                .filter(ad -> ad.getDistance() <= userRequest.getMaxDistance())
+                .collect(Collectors.toList());
     }
 
 }
