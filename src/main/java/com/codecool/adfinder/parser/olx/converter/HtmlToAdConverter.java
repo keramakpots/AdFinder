@@ -13,9 +13,9 @@ public class HtmlToAdConverter {
         this.htmlData = htmlData;
     }
 
-    public List<Ad> getAdFromSource(){
+    public List<Ad> getAdFromSource() {
         List<Ad> ads = new ArrayList<>();
-        for ( HtmlDataGetter source : htmlData ){
+        for (HtmlDataGetter source : htmlData) {
             Ad ad = new Ad();
             ad.setDescription(source.getDescription());
             ad.setPrice(source.getPrice());

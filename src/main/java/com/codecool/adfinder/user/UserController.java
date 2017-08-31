@@ -19,12 +19,6 @@ public class UserController {
     @Autowired
     private AdServices adServices;
 
-//    @RequestMapping(value = "/", method = RequestMethod.POST)
-//    public @ResponseBody
-//    Map<String, Object> getAds(@RequestBody UserRequest request) {
-//        return (Map<String, Object>) request;
-//    }
-
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public @ResponseBody
     String getAds(@RequestBody UserRequest request) throws InterruptedException, ApiException, IOException {

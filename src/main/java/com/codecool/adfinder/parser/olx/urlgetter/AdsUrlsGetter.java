@@ -12,7 +12,7 @@ public class AdsUrlsGetter {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
-    private final Integer maxPage = 35;
+    private final Integer maxPage = 5;
     private Integer currentPageNumber;
     private List<Document> listOfHtmlPages;
     private Set<String> urls;
@@ -23,7 +23,7 @@ public class AdsUrlsGetter {
     }
 
     public Set<String> getUrls() {
-        if(isUrlsSet) {
+        if (isUrlsSet) {
             return urls;
         }
         return null;
@@ -52,9 +52,9 @@ public class AdsUrlsGetter {
     private List<String> removeNotOLXUrls(List<String> urls) {
         Pattern pattern = Pattern.compile("otodom");
         ListIterator<String> iter = urls.listIterator();
-        while(iter.hasNext()){
+        while (iter.hasNext()) {
             Matcher matcher = pattern.matcher(iter.next());
-            if(matcher.find()){
+            if (matcher.find()) {
                 iter.remove();
             }
         }
@@ -66,7 +66,7 @@ public class AdsUrlsGetter {
         currentPageNumber = 1;
         listOfHtmlPages = new ArrayList<>();
         while (currentPageNumber < maxPage) {
-            String currentUrl = url+page+ currentPageNumber;
+            String currentUrl = url + page + currentPageNumber;
             Document sourceHtml = Jsoup.connect(currentUrl).get();
             listOfHtmlPages.add(sourceHtml);
             currentPageNumber++;

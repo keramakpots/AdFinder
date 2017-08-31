@@ -24,7 +24,7 @@ public class GeocodingResponseGetter {
         return duration;
     }
 
-    private void getResponseData(){
+    private void getResponseData() {
         for (DistanceMatrixRow row : distanceMatrix.rows) {
             for (DistanceMatrixElement element : row.elements
                     ) {

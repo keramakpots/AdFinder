@@ -13,7 +13,8 @@ public class AdServices {
     public void add(Ad ad) {
         adRepository.save(ad);
     }
-    public List<Ad> getAdByParameters(Integer minPrice, Integer maxPrice, Integer rooms) {
-        return adRepository.getAdsByStreetNotNull();
+
+    public List<Ad> getAdsByMinPriceAndMaxPriceAndRooms(Integer minPrice, Integer maxPrice, Integer rooms) {
+        return adRepository.getAdsByStreetNotNullAndPriceIsGreaterThanEqualAndPriceIsLessThanEqualAndRoomsEquals(minPrice, maxPrice, rooms);
     }
 }

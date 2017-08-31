@@ -19,15 +19,19 @@ public class AdController {
     @Autowired
     AdServices adServices;
 
-    @RequestMapping( value = "/startdb" )
+    @RequestMapping(value = "/startdb")
     public String startDb() throws IOException {
         AdsUrlsGetter adsUrlsGetter = new AdsUrlsGetter();
         adsUrlsGetter.parseForUrls();
         List<HtmlDataGetter> htmlDataGetterList = new ArrayList<>();
         for (String url :
                 adsUrlsGetter.getUrls()) {
-            HtmlDataGetter htmlDataGetter = new HtmlDataGetter(url);
-            htmlDataGetterList.add(htmlDataGetter);
+            try {
+                HtmlDataGetter htmlDataGetter = new HtmlDataGetter(url);
+                htmlDataGetterList.add(htmlDataGetter);
+            } catch (NullPointerException e) {
+                System.out.println("Ad doesn't exist ");
+            }
         }
         HtmlToAdConverter htmlToAdConverter = new HtmlToAdConverter(htmlDataGetterList);
         for (Ad ad :

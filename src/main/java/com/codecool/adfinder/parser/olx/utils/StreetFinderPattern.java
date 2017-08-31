@@ -37,7 +37,7 @@ public class StreetFinderPattern {
             stringBuilder.append(street.substring(1));
             stringBuilder.append("|");
         }
-        stringBuilder.deleteCharAt(stringBuilder.length()-1);
+        stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         stringBuilder.append(")");
         stringBuilder.append("(\\s+(\\d+\\w*))?");
         // TODO: 16/08/2017 get rid of insensitive case and create pattern with all possible combi. remove eg"gazowa"

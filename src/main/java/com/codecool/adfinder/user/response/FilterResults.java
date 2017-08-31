@@ -28,7 +28,7 @@ public class FilterResults {
         }
     }
 
-    public List<ExtendAd> getFiltredResults(){
+    public List<ExtendAd> getFiltredResults() {
         for (int i = 0; i < extendAdList.size(); i++) {
             if (extendAdList.get(i).getDistance() > userRequest.getMaxDistance() || extendAdList.get(i).getDuration() > userRequest.getMaxDuration()) {
                 extendAdList.remove(i);

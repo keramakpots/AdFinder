@@ -49,11 +49,11 @@ public class HtmlDataGetter {
         return title;
     }
 
-    public HtmlDataGetter(String url) throws IOException {
+    public HtmlDataGetter(String url) throws IOException, NullPointerException {
         setAdParameters(url);
     }
 
-    private void setAdParameters(String url) throws IOException {
+    private void setAdParameters(String url) throws IOException, NullPointerException {
         this.url = url;
         source = getSourceFromUrl(this.url);
         description = getDescriptionFromSource();
@@ -66,7 +66,7 @@ public class HtmlDataGetter {
     }
 
     private Integer getLengthOfStreet() {
-        if(street == null){
+        if (street == null) {
             return null;
         }
         return street.length();
@@ -74,7 +74,7 @@ public class HtmlDataGetter {
 
     private Integer getRoomsFromSource() {
         String rooms = properties.get("Liczba pokoi");
-        if (rooms == null){
+        if (rooms == null) {
             return null;
         }
         if (rooms.equals("Kawalerka")) {
@@ -96,8 +96,9 @@ public class HtmlDataGetter {
     }
 
     private Integer getPriceFromSource() {
-        String priceWithCurrency = source.getElementsByClass("price-label").text().replaceAll("\\D+","");;
-        if(priceWithCurrency.length() == 0) {
+        String priceWithCurrency = source.getElementsByClass("price-label").text().replaceAll("\\D+", "");
+        ;
+        if (priceWithCurrency.length() == 0) {
             return null;
         }
         return Integer.parseInt(priceWithCurrency);
@@ -120,7 +121,7 @@ public class HtmlDataGetter {
         return properties;
     }
 
-    private String getDescriptionFromSource() {
+    private String getDescriptionFromSource() throws NullPointerException {
         return source.getElementById("textContent").text();
     }
 

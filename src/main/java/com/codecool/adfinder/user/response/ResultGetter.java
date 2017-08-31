@@ -2,7 +2,6 @@ package com.codecool.adfinder.user.response;
 
 import com.codecool.adfinder.data.Ad;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ResultGetter {
@@ -14,7 +13,7 @@ public class ResultGetter {
 
     public List<Ad> getAdToProcessing() {
         for (int i = 0; i < adToProcessing.size(); i++) {
-            if(adToProcessing.get(i).getStreet() == null) {
+            if (adToProcessing.get(i).getStreet() == null) {
                 adToProcessing.remove(i);
             }
         }
