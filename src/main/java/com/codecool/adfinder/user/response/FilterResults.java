@@ -22,9 +22,7 @@ public class FilterResults {
         extendAdList = new ArrayList<>();
         for (Ad ad :
                 adList) {
-            if (ad.getPrice() < userRequest.getMaxPrice() && ad.getRooms() == userRequest.getRooms()) {
-                extendAdList.add(new ExtendAd(ad, userRequest));
-            }
+            extendAdList.add(new ExtendAd(ad, userRequest));
         }
     }
 
