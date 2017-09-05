@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class UserController {
@@ -19,9 +20,15 @@ public class UserController {
     @Autowired
     private AdServices adServices;
 
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public ModelAndView loadStartView(ModelAndView modelAndView) {
+        modelAndView.setViewName("index");
+        return modelAndView;
+    }
+
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public @ResponseBody
-    String getAds(@RequestBody UserRequest request) throws InterruptedException, ApiException, IOException {
+    String getAds(UserRequest request) throws InterruptedException, ApiException, IOException {
         ResponseHandler responseHandler = new ResponseHandler();
         List<ExtendAd> result = responseHandler.getResult(adServices, request);
         UserResponse userResponse = new UserResponse(result);

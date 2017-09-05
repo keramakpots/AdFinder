@@ -14,7 +14,8 @@ public class ExtendAd extends Ad {
     private Integer duration;
     private Integer distance;
 
-    public ExtendAd(Ad ad, UserRequest userRequest) throws InterruptedException, ApiException, IOException {
+    public ExtendAd(Ad ad, UserRequest userRequest)
+        throws InterruptedException, ApiException, IOException, NullPointerException {
         this.ad = ad;
         setExtendsFields(userRequest);
     }
@@ -68,7 +69,8 @@ public class ExtendAd extends Ad {
         return ad.getTitle();
     }
 
-    private void setExtendsFields(UserRequest userRequest) throws InterruptedException, ApiException, IOException {
+    private void setExtendsFields(UserRequest userRequest)
+        throws InterruptedException, ApiException, IOException, NullPointerException {
         GeocodingRequestCreator requestCreator = new GeocodingRequestCreator(userRequest, ad.getStreet());
         requestCreator.createMatrixApi();
         GeocodingRequestSender requestSender = new GeocodingRequestSender(requestCreator);

@@ -23,7 +23,11 @@ public class FilterResults {
         extendAdList = new ArrayList<>();
         for (Ad ad :
                 adList) {
-            extendAdList.add(new ExtendAd(ad, userRequest));
+            try {
+                extendAdList.add(new ExtendAd(ad, userRequest));
+            } catch (NullPointerException e) {
+                System.out.println("Not found!");
+            }
         }
     }
 
