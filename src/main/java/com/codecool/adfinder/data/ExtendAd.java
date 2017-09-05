@@ -15,7 +15,6 @@ public class ExtendAd extends Ad {
     private Integer distance;
 
     public ExtendAd(Ad ad, UserRequest userRequest) throws InterruptedException, ApiException, IOException {
-        super();
         this.ad = ad;
         setExtendsFields(userRequest);
     }
