@@ -10,7 +10,7 @@ public class StreetFinderPattern {
     private Pattern pattern;
     private final String filename = "streets.txt";
 
-    private static StreetFinderPattern ourInstance = new StreetFinderPattern();
+    private static final StreetFinderPattern ourInstance = new StreetFinderPattern();
 
     public static StreetFinderPattern getInstance() {
         return ourInstance;
@@ -33,6 +33,7 @@ public class StreetFinderPattern {
         }
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("(");
+        assert streets != null;
         for (String street : streets) {
             stringBuilder.append(street.substring(1));
             stringBuilder.append("|");
@@ -46,7 +47,7 @@ public class StreetFinderPattern {
     }
 
     private List<String> readFile(String filename) throws Exception {
-        String line = null;
+        String line;
         List<String> records = new ArrayList<>();
         BufferedReader bufferedReader = new BufferedReader(new FileReader(filename));
         while ((line = bufferedReader.readLine()) != null) {

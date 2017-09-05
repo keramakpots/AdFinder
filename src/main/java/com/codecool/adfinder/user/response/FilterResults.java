@@ -10,8 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FilterResults {
-    private UserRequest userRequest;
+class FilterResults {
+
+    private final UserRequest userRequest;
     private List<ExtendAd> extendAdList;
 
     public FilterResults(UserRequest userRequest, List<Ad> adList) throws InterruptedException, ApiException, IOException {

@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HtmlToAdConverter {
-    private List<HtmlDataGetter> htmlData;
+
+    private final List<HtmlDataGetter> htmlData;
 
     public HtmlToAdConverter(List<HtmlDataGetter> htmlData) {
         this.htmlData = htmlData;

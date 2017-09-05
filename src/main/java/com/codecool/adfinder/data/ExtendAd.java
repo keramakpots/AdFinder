@@ -9,7 +9,8 @@ import com.google.maps.errors.ApiException;
 import java.io.IOException;
 
 public class ExtendAd extends Ad {
-    private Ad ad;
+
+    private final Ad ad;
     private String destinationStreet;
     private Integer duration;
     private Integer distance;

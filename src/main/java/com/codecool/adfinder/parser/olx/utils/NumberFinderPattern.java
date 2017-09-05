@@ -3,8 +3,9 @@ package com.codecool.adfinder.parser.olx.utils;
 import java.util.regex.Pattern;
 
 public class NumberFinderPattern {
-    private Pattern pattern = Pattern.compile("\\d+");
-    private static NumberFinderPattern ourInstance = new NumberFinderPattern();
+
+    private final Pattern pattern = Pattern.compile("\\d+");
+    private static final NumberFinderPattern ourInstance = new NumberFinderPattern();
 
     public static NumberFinderPattern getInstance() {
         return ourInstance;

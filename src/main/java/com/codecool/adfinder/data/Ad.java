@@ -17,7 +17,7 @@ public class Ad {
     private Integer rooms;
     private String title;
 
-    public String getUrl() {
+    String getUrl() {
         return url;
     }
 
@@ -49,28 +49,28 @@ public class Ad {
         this.title = title;
     }
 
-    public String getStreet() {
+    String getStreet() {
 
         return street;
     }
 
-    public String getDescription() {
+    String getDescription() {
         return description;
     }
 
-    public String getPublishTime() {
+    String getPublishTime() {
         return publishTime;
     }
 
-    public Integer getPrice() {
+    Integer getPrice() {
         return price;
     }
 
-    public Integer getRooms() {
+    Integer getRooms() {
         return rooms;
     }
 
-    public String getTitle() {
+    String getTitle() {
         return title;
     }
 }

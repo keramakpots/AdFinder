@@ -6,7 +6,8 @@ import com.google.maps.model.DistanceMatrix;
 import java.io.IOException;
 
 public class GeocodingRequestSender {
-    GeocodingRequestCreator requestCreator;
+
+    private final GeocodingRequestCreator requestCreator;
 
     public GeocodingRequestSender(GeocodingRequestCreator reqeuestCreator) {
         this.requestCreator = reqeuestCreator;

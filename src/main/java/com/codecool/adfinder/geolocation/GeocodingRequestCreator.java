@@ -10,10 +10,11 @@ import com.google.maps.model.Unit;
 import java.util.Objects;
 
 public class GeocodingRequestCreator {
-    private UserRequest userRequest;
+
+    private final UserRequest userRequest;
     private DistanceMatrixApiRequest requestBuilder;
     private TravelType travelType;
-    private String startingStreet;
+    private final String startingStreet;
     private final String apiKey = "AIzaSyCYyk6zbit2ywq5Xgxray_C147oelow5Hw";
     private final GeoApiContext context = new GeoApiContext.Builder()
             .apiKey(apiKey)
