@@ -11,7 +11,7 @@ public class GeocodingResponseGetter {
     private long distance;
     private long duration;
 
-    public GeocodingResponseGetter(DistanceMatrix distanceMatrix) {
+    public GeocodingResponseGetter(DistanceMatrix distanceMatrix) throws NullPointerException {
         this.distanceMatrix = distanceMatrix;
         getResponseData();
     }
@@ -24,7 +24,7 @@ public class GeocodingResponseGetter {
         return duration;
     }
 
-    private void getResponseData() {
+    private void getResponseData() throws NullPointerException {
         for (DistanceMatrixRow row : distanceMatrix.rows) {
             for (DistanceMatrixElement element : row.elements
                     ) {
