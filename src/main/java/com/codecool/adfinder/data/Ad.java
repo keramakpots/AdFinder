@@ -1,7 +1,12 @@
 package com.codecool.adfinder.data;
 
+import lombok.Builder;
+import lombok.Data;
+
 import javax.persistence.*;
 
+@Data
+@Builder
 @Entity
 public class Ad {
     @Id
@@ -16,61 +21,4 @@ public class Ad {
     private Integer price;
     private Integer rooms;
     private String title;
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setPublishTime(String publishTime) {
-        this.publishTime = publishTime;
-    }
-
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
-
-    public void setRooms(Integer rooms) {
-        this.rooms = rooms;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getStreet() {
-
-        return street;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getPublishTime() {
-        return publishTime;
-    }
-
-    public Integer getPrice() {
-        return price;
-    }
-
-    public Integer getRooms() {
-        return rooms;
-    }
-
-    public String getTitle() {
-        return title;
-    }
 }
