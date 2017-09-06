@@ -2,11 +2,11 @@ package com.codecool.adfinder.parser.olx.converter;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.parser.olx.sourcegetter.HtmlDataGetter;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class HtmlToAdConverter {
+
     private List<HtmlDataGetter> htmlData;
 
     public HtmlToAdConverter(List<HtmlDataGetter> htmlData) {

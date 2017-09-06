@@ -1,12 +1,12 @@
 package com.codecool.adfinder.data;
 
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class AdServices {
+
     @Autowired
     AdRepository adRepository;
 
@@ -14,7 +14,10 @@ public class AdServices {
         adRepository.save(ad);
     }
 
-    public List<Ad> getAdsByMinPriceAndMaxPriceAndRooms(Integer minPrice, Integer maxPrice, Integer rooms) {
-        return adRepository.getAdsByStreetNotNullAndPriceIsGreaterThanEqualAndPriceIsLessThanEqualAndRoomsEquals(minPrice, maxPrice, rooms);
+    public List<Ad> getAdsByMinPriceAndMaxPriceAndRooms(Integer minPrice, Integer maxPrice,
+        Integer rooms) {
+        return adRepository
+            .getAdsByStreetNotNullAndPriceIsGreaterThanEqualAndPriceIsLessThanEqualAndRoomsEquals(
+                minPrice, maxPrice, rooms);
     }
 }

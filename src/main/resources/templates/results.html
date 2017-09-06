@@ -11,34 +11,34 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Olx Finder</h1>
-  </header>
-  <div id="results Table">
-    <table class="table-bordered table-hover" th:each="offer : ${offers}">
-      <thead>
-      <tr id="table head">
-        <th>URL</th>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Publish Time</th>
-        <th>Price</th>
-        <th>Distance from start</th>
-        <th>Duration o travel</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td><a th:text="${offer.url}"></a></td>
-        <td th:text="${offer.title}"></td>
-        <td th:text="${offer.description}"></td>
-        <td th:text="${offer.publishTime}"></td>
-        <td th:text="${offer.price}"></td>
-        <td th:text="${offer.distance}+' meters'"></td>
-        <td th:text="${offer.getDurationInConvertedTime()}"></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
+<header>
+  <h1>Olx Finder</h1>
+</header>
+<div id="results Table">
+  <table class="table-bordered table-hover" th:each="offer : ${offers}">
+    <thead>
+    <tr id="table head">
+      <th>URL</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Publish Time</th>
+      <th>Price</th>
+      <th>Distance from start</th>
+      <th>Duration o travel</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><a th:href="${offer.url}">See offer</a></td>
+      <td th:text="${offer.title}"></td>
+      <td th:text="${offer.description}"></td>
+      <td th:text="${offer.publishTime}"></td>
+      <td th:text="${offer.price}"></td>
+      <td th:text="${offer.distance}+' meters'"></td>
+      <td th:text="${offer.getDurationInConvertedTime()}"></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
 </body>
 </html>

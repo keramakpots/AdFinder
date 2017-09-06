@@ -1,14 +1,18 @@
 package com.codecool.adfinder.parser.olx.urlgetter;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import java.io.IOException;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class AdsUrlsGetter {
+
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
@@ -33,7 +37,8 @@ public class AdsUrlsGetter {
         if (!isUrlsSet) {
             urls = new HashSet<>();
             for (Document sourceCode : listOfHtmlPages) {
-                urls.addAll(normalizeUrls(removeNotOLXUrls(sourceCode.getElementsByClass("marginright5").eachAttr("href"))));
+                urls.addAll(normalizeUrls(removeNotOLXUrls(
+                    sourceCode.getElementsByClass("marginright5").eachAttr("href"))));
             }
             isUrlsSet = true;
         }
@@ -42,7 +47,8 @@ public class AdsUrlsGetter {
     private List<String> normalizeUrls(List<String> listOfUrlsWithEnd) {
         for (int i = 0; i < listOfUrlsWithEnd.size(); i++) {
             if (listOfUrlsWithEnd.get(i).endsWith(";promoted")) {
-                String correctUrl = listOfUrlsWithEnd.get(i).substring(0, listOfUrlsWithEnd.get(i).length() - 9);
+                String correctUrl = listOfUrlsWithEnd.get(i)
+                    .substring(0, listOfUrlsWithEnd.get(i).length() - 9);
                 listOfUrlsWithEnd.set(i, correctUrl);
             }
         }

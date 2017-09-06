@@ -1,10 +1,10 @@
 package com.codecool.adfinder.user.response;
 
 import com.codecool.adfinder.data.ExtendAd;
-
 import java.util.List;
 
 public class UserResponse {
+
     private List<ExtendAd> adsList;
 
     public UserResponse(List<ExtendAd> adsList) {

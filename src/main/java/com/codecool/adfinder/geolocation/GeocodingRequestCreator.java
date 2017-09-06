@@ -6,18 +6,18 @@ import com.google.maps.DistanceMatrixApiRequest;
 import com.google.maps.GeoApiContext;
 import com.google.maps.model.TravelMode;
 import com.google.maps.model.Unit;
-
 import java.util.Objects;
 
 public class GeocodingRequestCreator {
+
+    private final String apiKey = "AIzaSyCYyk6zbit2ywq5Xgxray_C147oelow5Hw";
+    private final GeoApiContext context = new GeoApiContext.Builder()
+        .apiKey(apiKey)
+        .build();
     private UserRequest userRequest;
     private DistanceMatrixApiRequest requestBuilder;
     private TravelType travelType;
     private String startingStreet;
-    private final String apiKey = "AIzaSyCYyk6zbit2ywq5Xgxray_C147oelow5Hw";
-    private final GeoApiContext context = new GeoApiContext.Builder()
-            .apiKey(apiKey)
-            .build();
 
     // TODO: 30/08/2017 inseted of staringStreet insert ExtendAd
     public GeocodingRequestCreator(UserRequest userRequest, String startingStreet) {
@@ -57,9 +57,9 @@ public class GeocodingRequestCreator {
 
     private void setBasicRequestParams(DistanceMatrixApiRequest request) {
         request.language("pl")
-                .avoid(DirectionsApi.RouteRestriction.TOLLS)
-                .units(Unit.METRIC)
-                .origins(startingStreet + ", Kraków, Polska")
-                .destinations(userRequest.getStreet() + ", Kraków, Polska");
+            .avoid(DirectionsApi.RouteRestriction.TOLLS)
+            .units(Unit.METRIC)
+            .origins(startingStreet + ", Kraków, Polska")
+            .destinations(userRequest.getStreet() + ", Kraków, Polska");
     }
 }
