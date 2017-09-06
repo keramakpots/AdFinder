@@ -3,23 +3,38 @@
 <head>
   <title>Search form</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <h1>Search by criteria</h1>
-<form action="#" th:action="@{/}" method="post">
-  <p>Minimal Price: <input type="text" name="minPrice" required="required"/></p>
-  <p>Maximal Price: <input type="text" name="maxPrice" required="required"/></p>
-  <p>Street: <input type="text" name="street" required="required"/></p>
-  <p>Rooms: <input type="text" name="rooms" required="required"/></p>
-  <p>Max Duration of travel in seconds<input type="text" name="maxDuration" required="required"/>
-  </p>
-  <p>Maximal Distance: <input type="text" name="maxDistance" required="required"/></p>
-  <select name="travelType">
+<div class="container">
+  <form class="form-horizontal" action="#" th:action="@{/}" method="post">
+    <div class="form-group"><label class="text-center" for="minPrice">Minimal Price: </label><input
+        class="form-control" id="minPrice" name="minPrice" required="required"/></div>
+    <div class="form-group"><label class="text-center" for="maxPrice">Maximal Price: </label><input
+        class="form-control" id="maxPrice" name="maxPrice" required="required"/></div>
+    <div class="form-group"><label class="text-center" for="street">Street: </label><input
+        class="form-control" id="street" name="street" required="required"/></div>
+    <div class="form-group"><label class="text-center" for="rooms">Rooms: v</label><input
+        class="form-control" id="rooms" name="rooms" required="required"/></div>
+    <div class="form-group"><label class="text-center" for="maxDuration">Max Duration of travel in
+      seconds</label><input class="form-control" id="maxDuration" name="maxDuration"
+                            required="required"/>
+    </div>
+    <div class="form-group"><label class="text-center" for="maxDistance">Maximal
+      Distance: </label><input class="form-control" id="maxDistance" name="maxDistance"
+                               required="required"/></div>
+    <select class="form-group" name="travelType">
     <option value="WALKING">Walking</option>
     <option value="DRIVING">Driving</option>
     <option value="BICYCLING">Bicykling</option>
   </select>
   <p><input type="submit" value="Send"/></p>
 </form>
+</div>
 </body>
 </html>
