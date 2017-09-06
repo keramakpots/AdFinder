@@ -27,6 +27,7 @@ public class GeocodingRequestCreator {
 
     public void createMatrixApi() {
         requestBuilder = new DistanceMatrixApiRequest(context);
+        addUserPAramsToRequest(requestBuilder);
         setBasicRequestParams(requestBuilder);
     }
 
