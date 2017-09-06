@@ -1,0 +1,28 @@
+/*core styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  background-color: burlywood;
+}
+
+header {
+  margin-left: 40%;
+  margin-right: 40%;
+  align-content: center;
+}
+
+#table head {
+  background-color: aquamarine;
+}
+
+tr {
+  border-bottom: double slateblue;
+}

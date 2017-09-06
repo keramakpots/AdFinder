@@ -11,15 +11,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="sidebar">
   <header>
     <h1>Olx Finder</h1>
   </header>
-  <div>
-    <table class="table-bordered table" th:each="offer : ${offers}">
-      <caption>Offers by Criteria</caption>
+  <div id="results Table">
+    <table class="table-bordered table-hover" th:each="offer : ${offers}">
       <thead>
-      <tr>
+      <tr id="table head">
         <th>URL</th>
         <th>Title</th>
         <th>Description</th>
@@ -42,6 +40,5 @@
       </tbody>
     </table>
   </div>
-</div>
 </body>
 </html>
