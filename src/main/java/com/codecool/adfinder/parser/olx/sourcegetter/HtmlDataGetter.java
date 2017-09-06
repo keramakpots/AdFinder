@@ -1,16 +1,16 @@
 package com.codecool.adfinder.parser.olx.sourcegetter;
 
 import com.codecool.adfinder.parser.olx.utils.StreetFinderPattern;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 public class HtmlDataGetter {
+
     private String url;
     private String street;
     private String description;
@@ -20,6 +20,10 @@ public class HtmlDataGetter {
     private Document source;
     private String title;
     private Map<String, String> properties;
+
+    public HtmlDataGetter(String url) throws IOException, NullPointerException {
+        setAdParameters(url);
+    }
 
     public String getUrl() {
         return url;
@@ -47,10 +51,6 @@ public class HtmlDataGetter {
 
     public String getTitle() {
         return title;
-    }
-
-    public HtmlDataGetter(String url) throws IOException, NullPointerException {
-        setAdParameters(url);
     }
 
     private void setAdParameters(String url) throws IOException, NullPointerException {
@@ -96,7 +96,8 @@ public class HtmlDataGetter {
     }
 
     private Integer getPriceFromSource() {
-        String priceWithCurrency = source.getElementsByClass("price-label").text().replaceAll("\\D+", "");
+        String priceWithCurrency = source.getElementsByClass("price-label").text()
+            .replaceAll("\\D+", "");
         ;
         if (priceWithCurrency.length() == 0) {
             return null;

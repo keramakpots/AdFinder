@@ -7,17 +7,17 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 public class StreetFinderPattern {
-    private Pattern pattern;
-    private final String filename = "streets.txt";
 
     private static StreetFinderPattern ourInstance = new StreetFinderPattern();
-
-    public static StreetFinderPattern getInstance() {
-        return ourInstance;
-    }
+    private final String filename = "streets.txt";
+    private Pattern pattern;
 
     private StreetFinderPattern() {
         createPattern();
+    }
+
+    public static StreetFinderPattern getInstance() {
+        return ourInstance;
     }
 
     public Pattern getPattern() {

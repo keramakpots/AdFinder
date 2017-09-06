@@ -6,6 +6,7 @@ import com.google.maps.model.DistanceMatrixElement;
 import com.google.maps.model.DistanceMatrixRow;
 
 public class GeocodingResponseGetter {
+
     private DistanceMatrix distanceMatrix;
     private UserRequest userRequest;
     private long distance;
@@ -27,7 +28,7 @@ public class GeocodingResponseGetter {
     private void getResponseData() throws NullPointerException {
         for (DistanceMatrixRow row : distanceMatrix.rows) {
             for (DistanceMatrixElement element : row.elements
-                    ) {
+                ) {
                 duration = element.duration.inSeconds;
                 distance = element.distance.inMeters;
             }

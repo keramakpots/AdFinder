@@ -1,6 +1,7 @@
 package com.codecool.adfinder.user.request;
 
 public class UserRequest {
+
     private Integer minPrice;
     private Integer maxPrice;
     private String street;

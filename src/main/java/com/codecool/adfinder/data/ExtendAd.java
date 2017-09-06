@@ -5,13 +5,13 @@ import com.codecool.adfinder.geolocation.GeocodingRequestSender;
 import com.codecool.adfinder.geolocation.GeocodingResponseGetter;
 import com.codecool.adfinder.user.request.UserRequest;
 import com.google.maps.errors.ApiException;
-
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
 public class ExtendAd extends Ad {
+
     private Ad ad;
     private String destinationStreet;
     private Integer duration;
@@ -81,10 +81,12 @@ public class ExtendAd extends Ad {
 
     private void setExtendsFields(UserRequest userRequest)
         throws InterruptedException, ApiException, IOException, NullPointerException {
-        GeocodingRequestCreator requestCreator = new GeocodingRequestCreator(userRequest, ad.getStreet());
+        GeocodingRequestCreator requestCreator = new GeocodingRequestCreator(userRequest,
+            ad.getStreet());
         requestCreator.createMatrixApi();
         GeocodingRequestSender requestSender = new GeocodingRequestSender(requestCreator);
-        GeocodingResponseGetter responseGetter = new GeocodingResponseGetter(requestSender.sendGeocodingRequest());
+        GeocodingResponseGetter responseGetter = new GeocodingResponseGetter(
+            requestSender.sendGeocodingRequest());
         duration = Math.toIntExact(responseGetter.getDuration());
         distance = Math.toIntExact(responseGetter.getDistance());
     }
