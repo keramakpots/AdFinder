@@ -5,6 +5,7 @@ import com.codecool.adfinder.data.ExtendAd;
 import com.codecool.adfinder.user.request.UserRequest;
 import com.codecool.adfinder.user.response.ResponseHandler;
 import com.codecool.adfinder.user.response.UserResponse;
+import com.codecool.adfinder.validation.ValidUserRequest;
 import com.google.gson.Gson;
 import com.google.maps.errors.ApiException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,8 @@ public class UserController {
     ModelAndView getAds(ModelAndView modelAndView, UserRequest request)
         throws InterruptedException, ApiException, IOException {
         ResponseHandler responseHandler = new ResponseHandler();
+        ValidUserRequest validUserRequest = new ValidUserRequest(request);
+        request = validUserRequest.validRequest();
         List<ExtendAd> result = responseHandler.getResult(adServices, request);
         modelAndView.addObject("offers", result);
         modelAndView.setViewName("results");

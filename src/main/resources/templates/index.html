@@ -7,12 +7,12 @@
 <body>
 <h1>Search by criteria</h1>
 <form action="#" th:action="@{/}" method="post">
-  <p>Minimal Price: <input type="text" name="minPrice"/></p>
-  <p>Maximal Price: <input type="text" name="maxPrice"/></p>
-  <p>Street: <input type="text" name="street"/></p>
-  <p>Rooms: <input type="text" name="rooms"/></p>
-  <p>Max Duration of travel <input type="text" name="maxDuration"/></p>
-  <p>Maximal Distance: <input type="text" name="maxDistance"/></p>
+  <p>Minimal Price: <input type="text" name="minPrice" required="required"/></p>
+  <p>Maximal Price: <input type="text" name="maxPrice" required="required"/></p>
+  <p>Street: <input type="text" name="street" required="required"/></p>
+  <p>Rooms: <input type="text" name="rooms" required="required"/></p>
+  <p>Max Duration of travel <input type="text" name="maxDuration" required="required"/></p>
+  <p>Maximal Distance: <input type="text" name="maxDistance" required="required"/></p>
   <select name="travelType">
     <option value="WALKING">Walking</option>
     <option value="DRIVING">Driving</option>
