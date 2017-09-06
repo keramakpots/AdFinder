@@ -31,33 +31,6 @@
     <input class="submit" value="Submit" type="submit"/>
   </form>
   <ul class="geocodes"></ul>
-  <div>
-    <table class="table-bordered table" th:each="offer : ${offers}">
-      <caption>Offers by Criteria</caption>
-      <thead>
-      <tr>
-        <th>URL</th>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Publish Time</th>
-        <th>Price</th>
-        <th>Distance from start</th>
-        <th>Duration o travel by Car</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td><a th:text="${offer.url}"></a></td>
-        <td th:text="${offer.title}"></td>
-        <td th:text="${offer.description}"></td>
-        <td th:text="${offer.publishTime}"></td>
-        <td th:text="${offer.price}"></td>
-        <td th:text="${offer.distance}+' meters'"></td>
-        <td th:text="${offer.duration}+' seconds'"></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
 </div>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript"
