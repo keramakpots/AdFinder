@@ -26,7 +26,7 @@
         <th>Publish Time</th>
         <th>Price</th>
         <th>Distance from start</th>
-        <th>Duration o travel by Car</th>
+        <th>Duration o travel</th>
       </tr>
       </thead>
       <tbody>
@@ -37,7 +37,7 @@
         <td th:text="${offer.publishTime}"></td>
         <td th:text="${offer.price}"></td>
         <td th:text="${offer.distance}+' meters'"></td>
-        <td th:text="${offer.duration}+' seconds'"></td>
+        <td th:text="${offer.getDurationInConvertedTime()}"></td>
       </tr>
       </tbody>
     </table>
