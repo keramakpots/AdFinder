@@ -28,10 +28,12 @@ public class UserController {
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public @ResponseBody
-    String getAds(UserRequest request) throws InterruptedException, ApiException, IOException {
+    ModelAndView getAds(ModelAndView modelAndView, UserRequest request)
+        throws InterruptedException, ApiException, IOException {
         ResponseHandler responseHandler = new ResponseHandler();
         List<ExtendAd> result = responseHandler.getResult(adServices, request);
-        UserResponse userResponse = new UserResponse(result);
-        return new Gson().toJson(userResponse);
+        modelAndView.addObject("offers", result);
+        modelAndView.setViewName("results");
+        return modelAndView;
     }
 }
