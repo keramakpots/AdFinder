@@ -35,7 +35,7 @@ public class FilterResults {
 
     public List<ExtendAd> getFilteredResults() {
         return extendAdList.stream()
-            .filter(ad -> ad.getDuration() <= userRequest.getMaxDuration())
+            .filter(ad -> ad.getDuration() <= userRequest.getMaxDuration() * 60)
             .filter(ad -> ad.getDistance() <= userRequest.getMaxDistance())
             .collect(Collectors.toList());
     }
