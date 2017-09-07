@@ -39,4 +39,10 @@ public class UserController {
         modelAndView.setViewName("results");
         return modelAndView;
     }
+
+    @RequestMapping(value = "/map", method = RequestMethod.GET)
+    public ModelAndView getMap(ModelAndView modelAndView) {
+        modelAndView.setViewName("map");
+        return modelAndView;
+    }
 }
