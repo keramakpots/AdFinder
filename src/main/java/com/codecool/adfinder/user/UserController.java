@@ -36,7 +36,7 @@ public class UserController {
         request = validUserRequest.validRequest();
         List<ExtendAd> result = responseHandler.getResult(adServices, request);
         modelAndView.addObject("offers", result);
-        modelAndView.setViewName("results");
+        modelAndView.setViewName("map");
         return modelAndView;
     }
 
