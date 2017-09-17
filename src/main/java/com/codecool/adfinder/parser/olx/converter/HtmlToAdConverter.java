@@ -16,14 +16,15 @@ public class HtmlToAdConverter {
     public List<Ad> getAdFromSource() {
         List<Ad> ads = new ArrayList<>();
         for (HtmlDataGetter source : htmlData) {
-            Ad ad = new Ad();
-            ad.setDescription(source.getDescription());
-            ad.setPrice(source.getPrice());
-            ad.setPublishTime(source.getPublishTime());
-            ad.setRooms(source.getAmountOfRooms());
-            ad.setStreet(source.getStreet());
-            ad.setTitle(source.getTitle());
-            ad.setUrl(source.getUrl());
+            Ad ad = Ad.AdBuilder.anAd()
+                    .description(source.getDescription())
+                    .price(source.getPrice())
+                    .publishTime(source.getPublishTime())
+                    .rooms(source.getAmountOfRooms())
+                    .street(source.getStreet())
+                    .title(source.getTitle())
+                    .url(source.getUrl())
+                    .build();
             ads.add(ad);
         }
         return ads;
