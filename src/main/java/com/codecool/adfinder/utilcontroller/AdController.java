@@ -5,6 +5,8 @@ import com.codecool.adfinder.data.AdServices;
 import com.codecool.adfinder.parser.olx.converter.HtmlToAdConverter;
 import com.codecool.adfinder.parser.olx.sourceparser.OlxAdFromHtmlBuilder;
 import com.codecool.adfinder.parser.olx.urlgetter.AdsUrlsGetter;
+import com.codecool.adfinder.parser.olx.utils.StreetFinderPattern;
+import com.codecool.adfinder.parser.olx.utils.StreetFinderStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,10 +26,11 @@ public class AdController {
         AdsUrlsGetter adsUrlsGetter = new AdsUrlsGetter();
         adsUrlsGetter.parseForUrls();
         List<OlxAdFromHtmlBuilder> olxAdFromHtmlBuilderList = new ArrayList<>();
+        StreetFinderStrategy streetFinderStrategy = new StreetFinderPattern();
         for (String url :
                 adsUrlsGetter.getUrls()) {
             try {
-                OlxAdFromHtmlBuilder olxAdFromHtmlBuilder = new OlxAdFromHtmlBuilder(url);
+                OlxAdFromHtmlBuilder olxAdFromHtmlBuilder = new OlxAdFromHtmlBuilder(url,streetFinderStrategy);
                 olxAdFromHtmlBuilderList.add(olxAdFromHtmlBuilder);
             } catch (NullPointerException e) {
                 System.out.println("Ad doesn't exist ");

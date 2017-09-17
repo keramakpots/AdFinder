@@ -12,7 +12,7 @@ public class AdsUrlsGetter {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
-    private final Integer maxPage = 10;
+    private final Integer maxPage = 3;
     private Integer currentPageNumber;
     private List<Document> listOfHtmlPages;
     private Set<String> urls;

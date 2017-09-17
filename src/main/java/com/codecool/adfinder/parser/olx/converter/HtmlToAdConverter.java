@@ -22,6 +22,7 @@ public class HtmlToAdConverter {
             builder.buildPublishTime();
             builder.buildTitle();
             builder.buildUrl();
+            builder.buildStreet();
             ads.add(builder.getAd());
         }
         return ads;

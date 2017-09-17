@@ -2,8 +2,11 @@ package com.codecool.adfinder.parser.olx.sourceparser;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.parser.olx.utils.StreetFinderPattern;
+import com.codecool.adfinder.parser.olx.utils.StreetFinderStrategy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -15,8 +18,10 @@ public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
     private Ad.AdBuilder adBuilder;
     private Document source;
     private Map<String, String> properties;
+    private StreetFinderStrategy streetFinderStrategy;
 
-    public OlxAdFromHtmlBuilder(String url) throws IOException {
+    public OlxAdFromHtmlBuilder(String url, StreetFinderStrategy streetFinderStrategy) throws IOException {
+        this.streetFinderStrategy = streetFinderStrategy;
         initBuild(url);
         adBuilder = Ad.AdBuilder.anAd();
     }
@@ -38,14 +43,9 @@ public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
         adBuilder.url(source.location());
     }
 
-//    @Override
-//    public void buildStreet() {
-//        Matcher matcher = StreetFinderPattern.getInstance().getPattern().matcher(description);
-//        if (matcher.find()) {
-//            adBuilder.street(matcher.group());
-//        }
-//        adBuilder.street(null);
-//    }
+    public void buildStreet() {
+        adBuilder.street(streetFinderStrategy.getStreet(source.getElementById("textContent").text()));
+    }
 
     @Override
     public void buildDescription() {
