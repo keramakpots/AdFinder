@@ -1,4 +1,4 @@
-package com.codecool.adfinder.parser.olx.sourcegetter;
+package com.codecool.adfinder.parser.olx.sourceparser;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.parser.olx.utils.StreetFinderPattern;
@@ -13,47 +13,11 @@ import java.util.regex.Matcher;
 
 public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
     private Ad.AdBuilder adBuilder;
-    private String url;
-    private String street;
-    private String description;
-    private String publishTime;
-    private Integer price;
-    private Integer amountOfRooms;
     private Document source;
-    private String title;
     private Map<String, String> properties;
 
-    public String getUrl() {
-        return url;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getPublishTime() {
-        return publishTime;
-    }
-
-    public Integer getPrice() {
-        return price;
-    }
-
-    public Integer getAmountOfRooms() {
-        return amountOfRooms;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public OlxAdFromHtmlBuilder(Document source) {
-        this.source = source;
-        setProperties();
+    public OlxAdFromHtmlBuilder(String url) throws IOException {
+        initBuild(url);
         adBuilder = Ad.AdBuilder.anAd();
     }
 
@@ -70,13 +34,18 @@ public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
     }
 
     @Override
-    public void buildStreet() {
-        Matcher matcher = StreetFinderPattern.getInstance().getPattern().matcher(description);
-        if (matcher.find()) {
-            adBuilder.street(matcher.group());
-        }
-        adBuilder.street(null);
+    public void buildUrl() {
+        adBuilder.url(source.location());
     }
+
+//    @Override
+//    public void buildStreet() {
+//        Matcher matcher = StreetFinderPattern.getInstance().getPattern().matcher(description);
+//        if (matcher.find()) {
+//            adBuilder.street(matcher.group());
+//        }
+//        adBuilder.street(null);
+//    }
 
     @Override
     public void buildDescription() {
@@ -118,5 +87,14 @@ public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
     @Override
     public Ad getAd() {
         return adBuilder.build();
+    }
+
+    private void buildSource(String url) throws IOException {
+        source = Jsoup.connect(url).get();
+    }
+
+    private void initBuild(String url) throws IOException {
+        buildSource(url);
+        setProperties();
     }
 }
