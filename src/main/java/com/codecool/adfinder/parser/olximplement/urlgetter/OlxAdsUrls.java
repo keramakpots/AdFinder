@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class AdsUrlsGetter {
+public class OlxAdsUrls {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";

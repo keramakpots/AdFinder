@@ -2,9 +2,8 @@ package com.codecool.adfinder.utilcontroller;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.data.AdServices;
-import com.codecool.adfinder.parser.olximplement.converter.HtmlToAdConverter;
-import com.codecool.adfinder.parser.olximplement.sourceparser.OlxAdFromHtmlBuilder;
-import com.codecool.adfinder.parser.olximplement.urlgetter.AdsUrlsGetter;
+import com.codecool.adfinder.parser.AdsFactory;
+import com.codecool.adfinder.parser.olximplement.urlgetter.OlxAdsUrls;
 import com.codecool.adfinder.parser.utils.StreetFinderPattern;
 import com.codecool.adfinder.parser.utils.StreetFinderStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 public class AdController {
@@ -23,22 +20,12 @@ public class AdController {
 
     @RequestMapping(value = "/startdb")
     public String startDb() throws IOException {
-        AdsUrlsGetter adsUrlsGetter = new AdsUrlsGetter();
+        OlxAdsUrls adsUrlsGetter = new OlxAdsUrls();
         adsUrlsGetter.parseForUrls();
-        List<OlxAdFromHtmlBuilder> olxAdFromHtmlBuilderList = new ArrayList<>();
         StreetFinderStrategy streetFinderStrategy = new StreetFinderPattern();
-        for (String url :
-                adsUrlsGetter.getUrls()) {
-            try {
-                OlxAdFromHtmlBuilder olxAdFromHtmlBuilder = new OlxAdFromHtmlBuilder(url,streetFinderStrategy);
-                olxAdFromHtmlBuilderList.add(olxAdFromHtmlBuilder);
-            } catch (NullPointerException e) {
-                System.out.println("Ad doesn't exist ");
-            }
-        }
-        HtmlToAdConverter htmlToAdConverter = new HtmlToAdConverter(olxAdFromHtmlBuilderList);
+        AdsFactory adsFactory = new AdsFactory();
         for (Ad ad :
-                htmlToAdConverter.getAdFromSource()) {
+                adsFactory.from(adsUrlsGetter.getUrls(), streetFinderStrategy)) {
             adServices.add(ad);
         }
         return "done";

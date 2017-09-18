@@ -1,7 +1,7 @@
 package com.codecool.adfinder.parser.olximplement.sourceparser;
 
 import com.codecool.adfinder.data.Ad;
-import com.codecool.adfinder.parser.sourceparser.AdFromHtmlBuilder;
+import com.codecool.adfinder.parser.AdStrategy;
 import com.codecool.adfinder.parser.utils.StreetFinderStrategy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,20 +11,35 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
+public class OlxAdStrategy implements AdStrategy {
     private Ad.AdBuilder adBuilder;
     private Document source;
     private Map<String, String> properties;
     private StreetFinderStrategy streetFinderStrategy;
 
-    public OlxAdFromHtmlBuilder(String url, StreetFinderStrategy streetFinderStrategy) throws IOException {
+    // TODO: 18/09/2017 give Document html instead or url
+    public OlxAdStrategy(String url, StreetFinderStrategy streetFinderStrategy) throws IOException {
         this.streetFinderStrategy = streetFinderStrategy;
         initBuild(url);
         adBuilder = Ad.AdBuilder.anAd();
     }
 
+    public void execute() {
+        this.amountOfRooms();
+        this.description();
+        this.Price();
+        this.publishTime();
+        this.title();
+        this.url();
+        this.street();
+    }
+
     @Override
-    public void buildAmountOfRooms() {
+    public Ad getAd() {
+        return adBuilder.build();
+    }
+
+    private void amountOfRooms() {
         String rooms = properties.get("Liczba pokoi");
         if (rooms == null) {
             adBuilder.rooms(null);
@@ -35,35 +50,30 @@ public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
         adBuilder.rooms(Character.getNumericValue(rooms.charAt(0)));
     }
 
-    @Override
-    public void buildUrl() {
+    private void url() {
         adBuilder.url(source.location());
     }
 
-    public void buildStreet() {
+    private void street() {
         adBuilder.street(streetFinderStrategy.getStreet(source.getElementById("textContent").text()));
     }
 
-    @Override
-    public void buildDescription() {
+    private void description() {
         adBuilder.description(source.getElementById("textContent").text());
     }
-
     // TODO: 16/08/2017 get proper time and date
+
     // hour: \d{2}:\d{2}
     // date: \d+\s\w+\s\d+
-    @Override
-    public void buildPublishTime() {
+    private void publishTime() {
         adBuilder.publishTime(source.getElementsByClass("offer-titlebox__details").select("em").text());
     }
 
-    @Override
-    public void buildTitle() {
+    private void title() {
         adBuilder.title(source.getElementsByTag("title").text());
     }
 
-    @Override
-    public void buildPrice() {
+    private void Price() {
         String priceWithCurrency = source.getElementsByClass("price-label").text().replaceAll("\\D+", "");
         if (priceWithCurrency.length() == 0) {
             adBuilder.price(null);
@@ -79,11 +89,6 @@ public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
             properties.put(category.get(i), value.get(i));
         }
         this.properties = properties;
-    }
-
-    @Override
-    public Ad getAd() {
-        return adBuilder.build();
     }
 
     private void buildSource(String url) throws IOException {
