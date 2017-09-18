@@ -2,11 +2,11 @@ package com.codecool.adfinder.utilcontroller;
 
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.data.AdServices;
-import com.codecool.adfinder.parser.olx.converter.HtmlToAdConverter;
-import com.codecool.adfinder.parser.olx.sourceparser.OlxAdFromHtmlBuilder;
-import com.codecool.adfinder.parser.olx.urlgetter.AdsUrlsGetter;
-import com.codecool.adfinder.parser.olx.utils.StreetFinderPattern;
-import com.codecool.adfinder.parser.olx.utils.StreetFinderStrategy;
+import com.codecool.adfinder.parser.olximplement.converter.HtmlToAdConverter;
+import com.codecool.adfinder.parser.olximplement.sourceparser.OlxAdFromHtmlBuilder;
+import com.codecool.adfinder.parser.olximplement.urlgetter.AdsUrlsGetter;
+import com.codecool.adfinder.parser.utils.StreetFinderPattern;
+import com.codecool.adfinder.parser.utils.StreetFinderStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,18 +1,15 @@
-package com.codecool.adfinder.parser.olx.sourceparser;
+package com.codecool.adfinder.parser.olximplement.sourceparser;
 
 import com.codecool.adfinder.data.Ad;
-import com.codecool.adfinder.parser.olx.utils.StreetFinderPattern;
-import com.codecool.adfinder.parser.olx.utils.StreetFinderStrategy;
+import com.codecool.adfinder.parser.sourceparser.AdFromHtmlBuilder;
+import com.codecool.adfinder.parser.utils.StreetFinderStrategy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
 
 public class OlxAdFromHtmlBuilder implements AdFromHtmlBuilder {
     private Ad.AdBuilder adBuilder;

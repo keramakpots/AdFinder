@@ -1,6 +1,4 @@
-package com.codecool.adfinder.parser.olx.utils;
-
-import org.springframework.stereotype.Component;
+package com.codecool.adfinder.parser.utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

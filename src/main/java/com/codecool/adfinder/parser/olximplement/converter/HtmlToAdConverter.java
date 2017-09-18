@@ -1,7 +1,7 @@
-package com.codecool.adfinder.parser.olx.converter;
+package com.codecool.adfinder.parser.olximplement.converter;
 
 import com.codecool.adfinder.data.Ad;
-import com.codecool.adfinder.parser.olx.sourceparser.OlxAdFromHtmlBuilder;
+import com.codecool.adfinder.parser.olximplement.sourceparser.OlxAdFromHtmlBuilder;
 
 import java.util.ArrayList;
 import java.util.List;

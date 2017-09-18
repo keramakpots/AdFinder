@@ -1,4 +1,4 @@
-package com.codecool.adfinder.parser.olx.urlgetter;
+package com.codecool.adfinder.parser.olximplement.urlgetter;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

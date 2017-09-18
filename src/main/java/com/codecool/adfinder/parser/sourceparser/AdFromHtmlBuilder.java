@@ -1,4 +1,4 @@
-package com.codecool.adfinder.parser.olx.sourceparser;
+package com.codecool.adfinder.parser.sourceparser;
 
 import com.codecool.adfinder.data.Ad;
 
