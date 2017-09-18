@@ -1,5 +1,6 @@
 package com.codecool.adfinder.parser.olximplement.urlgetter;
 
+import com.codecool.adfinder.parser.AdsUrlsStrategy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -8,7 +9,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class OlxAdsUrls {
+public class OlxAdsUrls implements AdsUrlsStrategy {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
@@ -17,9 +18,10 @@ public class OlxAdsUrls {
     private List<Document> listOfHtmlPages;
     private Set<String> urls;
 
-    public void parseForUrls() throws IOException {
-        createListOfDocuments();
-        getUrlsFromHtmlPages();
+
+    @Override
+    public void execute() throws IOException {
+        parseForUrls();
     }
 
     public Set<String> getUrls() {
@@ -27,6 +29,11 @@ public class OlxAdsUrls {
             return urls;
         }
         return null;
+    }
+
+    private void parseForUrls() throws IOException {
+        createListOfDocuments();
+        getUrlsFromHtmlPages();
     }
 
     private void getUrlsFromHtmlPages() {

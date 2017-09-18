@@ -3,6 +3,7 @@ package com.codecool.adfinder.utilcontroller;
 import com.codecool.adfinder.data.Ad;
 import com.codecool.adfinder.data.AdServices;
 import com.codecool.adfinder.parser.AdsFactory;
+import com.codecool.adfinder.parser.AdsUrlsFactory;
 import com.codecool.adfinder.parser.olximplement.urlgetter.OlxAdsUrls;
 import com.codecool.adfinder.parser.utils.StreetFinderPattern;
 import com.codecool.adfinder.parser.utils.StreetFinderStrategy;
@@ -20,12 +21,11 @@ public class AdController {
 
     @RequestMapping(value = "/startdb")
     public String startDb() throws IOException {
-        OlxAdsUrls adsUrlsGetter = new OlxAdsUrls();
-        adsUrlsGetter.parseForUrls();
+        AdsUrlsFactory adsUrlsFactory = new AdsUrlsFactory();
         StreetFinderStrategy streetFinderStrategy = new StreetFinderPattern();
         AdsFactory adsFactory = new AdsFactory();
         for (Ad ad :
-                adsFactory.from(adsUrlsGetter.getUrls(), streetFinderStrategy)) {
+                adsFactory.from(adsUrlsFactory.from(), streetFinderStrategy)) {
             adServices.add(ad);
         }
         return "done";
