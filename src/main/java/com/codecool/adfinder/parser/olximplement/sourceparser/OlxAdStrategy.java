@@ -12,7 +12,6 @@ import java.util.List;
 import java.util.Map;
 
 public class OlxAdStrategy implements AdStrategy {
-
     private Ad.AdBuilder adBuilder;
     private Document source;
     private Map<String, String> properties;
@@ -44,11 +43,11 @@ public class OlxAdStrategy implements AdStrategy {
         String rooms = properties.get("Liczba pokoi");
         if (rooms == null) {
             adBuilder.rooms(null);
-        }
-        if (rooms.equals("Kawalerka")) {
+        } else if (rooms.equals("Kawalerka")) {
             adBuilder.rooms(1);
+        } else {
+            adBuilder.rooms(Character.getNumericValue(rooms.charAt(0)));
         }
-        adBuilder.rooms(Character.getNumericValue(rooms.charAt(0)));
     }
 
     private void url() {
@@ -56,8 +55,12 @@ public class OlxAdStrategy implements AdStrategy {
     }
 
     private void street() {
-        adBuilder
-            .street(streetFinderStrategy.getStreet(source.getElementById("textContent").text()));
+        String street = streetFinderStrategy.getStreet(source.getElementById("textContent").text());
+        if (street == null) {
+            adBuilder.street("Rynek Główny");
+        } else {
+            adBuilder.street(street);
+        }
     }
 
     private void description() {
@@ -68,8 +71,7 @@ public class OlxAdStrategy implements AdStrategy {
     // hour: \d{2}:\d{2}
     // date: \d+\s\w+\s\d+
     private void publishTime() {
-        adBuilder
-            .publishTime(source.getElementsByClass("offer-titlebox__details").select("em").text());
+        adBuilder.publishTime(source.getElementsByClass("offer-titlebox__details").select("em").text());
     }
 
     private void title() {
@@ -77,12 +79,12 @@ public class OlxAdStrategy implements AdStrategy {
     }
 
     private void Price() {
-        String priceWithCurrency = source.getElementsByClass("price-label").text()
-            .replaceAll("\\D+", "");
+        String priceWithCurrency = source.getElementsByClass("price-label").text().replaceAll("\\D+", "");
         if (priceWithCurrency.length() == 0) {
             adBuilder.price(null);
+        } else {
+            adBuilder.price(Integer.parseInt(priceWithCurrency));
         }
-        adBuilder.price(Integer.parseInt(priceWithCurrency));
     }
 
     private void setProperties() {
