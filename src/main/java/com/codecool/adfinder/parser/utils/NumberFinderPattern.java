@@ -4,13 +4,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class NumberFinderPattern implements NumberFinderStrategy {
+
     private Pattern pattern;
 
-    public NumberFinderPattern(){
+    public NumberFinderPattern() {
         createPattern();
     }
 
-    private void createPattern(){
+    private void createPattern() {
         pattern = Pattern.compile("\\d+");
     }
 

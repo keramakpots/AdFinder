@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class StreetFinderPattern implements StreetFinderStrategy{
+public class StreetFinderPattern implements StreetFinderStrategy {
     private Pattern pattern;
     private final String filename = "streets.txt";
 

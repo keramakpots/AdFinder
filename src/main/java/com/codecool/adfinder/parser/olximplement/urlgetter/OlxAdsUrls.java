@@ -13,7 +13,7 @@ public class OlxAdsUrls implements AdsUrlsStrategy {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
-    private final Integer maxPage = 3;
+    private final Integer maxPage = 10;
     private Integer currentPageNumber;
     private List<Document> listOfHtmlPages;
     private Set<String> urls;
@@ -40,7 +40,8 @@ public class OlxAdsUrls implements AdsUrlsStrategy {
         if (!isUrlsSet) {
             urls = new HashSet<>();
             for (Document sourceCode : listOfHtmlPages) {
-                urls.addAll(normalizeUrls(removeNotOLXUrls(sourceCode.getElementsByClass("marginright5").eachAttr("href"))));
+                urls.addAll(normalizeUrls(removeNotOLXUrls(
+                    sourceCode.getElementsByClass("marginright5").eachAttr("href"))));
             }
             isUrlsSet = true;
         }
@@ -49,7 +50,8 @@ public class OlxAdsUrls implements AdsUrlsStrategy {
     private List<String> normalizeUrls(List<String> listOfUrlsWithEnd) {
         for (int i = 0; i < listOfUrlsWithEnd.size(); i++) {
             if (listOfUrlsWithEnd.get(i).endsWith(";promoted")) {
-                String correctUrl = listOfUrlsWithEnd.get(i).substring(0, listOfUrlsWithEnd.get(i).length() - 9);
+                String correctUrl = listOfUrlsWithEnd.get(i)
+                    .substring(0, listOfUrlsWithEnd.get(i).length() - 9);
                 listOfUrlsWithEnd.set(i, correctUrl);
             }
         }

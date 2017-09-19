@@ -75,6 +75,7 @@ public class Ad {
     }
 
     public static final class AdBuilder {
+
         private String url;
         private String street;
         private String description;

@@ -11,7 +11,8 @@ import java.util.Set;
 
 public class AdsFactory {
 
-    public List<Ad> from(Set<String> urls, StreetFinderStrategy streetFinderStrategy) throws IOException {
+    public List<Ad> from(Set<String> urls, StreetFinderStrategy streetFinderStrategy)
+        throws IOException {
         List<Ad> ads = new ArrayList<>();
         for (String url : urls) {
             AdStrategy adStrategy = new OlxAdStrategy(url, streetFinderStrategy);

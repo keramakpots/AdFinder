@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 public class OlxAdStrategy implements AdStrategy {
+
     private Ad.AdBuilder adBuilder;
     private Document source;
     private Map<String, String> properties;
@@ -55,7 +56,8 @@ public class OlxAdStrategy implements AdStrategy {
     }
 
     private void street() {
-        adBuilder.street(streetFinderStrategy.getStreet(source.getElementById("textContent").text()));
+        adBuilder
+            .street(streetFinderStrategy.getStreet(source.getElementById("textContent").text()));
     }
 
     private void description() {
@@ -66,7 +68,8 @@ public class OlxAdStrategy implements AdStrategy {
     // hour: \d{2}:\d{2}
     // date: \d+\s\w+\s\d+
     private void publishTime() {
-        adBuilder.publishTime(source.getElementsByClass("offer-titlebox__details").select("em").text());
+        adBuilder
+            .publishTime(source.getElementsByClass("offer-titlebox__details").select("em").text());
     }
 
     private void title() {
@@ -74,7 +77,8 @@ public class OlxAdStrategy implements AdStrategy {
     }
 
     private void Price() {
-        String priceWithCurrency = source.getElementsByClass("price-label").text().replaceAll("\\D+", "");
+        String priceWithCurrency = source.getElementsByClass("price-label").text()
+            .replaceAll("\\D+", "");
         if (priceWithCurrency.length() == 0) {
             adBuilder.price(null);
         }

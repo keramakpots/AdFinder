@@ -25,7 +25,7 @@ public class AdController {
         StreetFinderStrategy streetFinderStrategy = new StreetFinderPattern();
         AdsFactory adsFactory = new AdsFactory();
         for (Ad ad :
-                adsFactory.from(adsUrlsFactory.from(), streetFinderStrategy)) {
+            adsFactory.from(adsUrlsFactory.from(), streetFinderStrategy)) {
             adServices.add(ad);
         }
         return "done";
