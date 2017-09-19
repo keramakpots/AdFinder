@@ -12,29 +12,40 @@
 <body>
 <h1>Search by criteria</h1>
 <div class="container">
-  <form class="form-horizontal" action="#" th:action="@{/}" method="post">
-    <div class="form-group"><label class="text-center" for="minPrice">Minimal Price: </label><input
-        class="form-control" id="minPrice" name="minPrice" required="true"/></div>
-    <div class="form-group"><label class="text-center" for="maxPrice">Maximal Price: </label><input
-        class="form-control" id="maxPrice" name="maxPrice" required="true"/></div>
-    <div class="form-group"><label class="text-center" for="street">Street: </label><input
-        class="form-control" id="street" name="street" required="true"/></div>
-    <div class="form-group"><label class="text-center" for="rooms">Rooms: </label><input
-        class="form-control" id="rooms" name="rooms" required="true"/></div>
-    <div class="form-group"><label class="text-center" for="maxDuration">Max Duration of travel in
-      minutes</label><input class="form-control" id="maxDuration" name="maxDuration"
-                            required="true"/>
-    </div>
-    <div class="form-group"><label class="text-center" for="maxDistance">Maximal
-      Distance: </label><input class="form-control" id="maxDistance" name="maxDistance"
-                               required="required"/></div>
-    <select class="form-group" name="travelType">
-    <option value="WALKING">Walking</option>
-    <option value="DRIVING">Driving</option>
-    <option value="BICYCLING">Bicykling</option>
-  </select>
-  <p><input type="submit" value="Send"/></p>
+  <div class="row content col-sm-3">
+    <form class="form-horizontal" action="#" th:action="@{/}" method="post">
+      <div class="form-group"><label class="text-center" for="minPrice">Minimal
+        Price: </label><input
+          class="form-control" id="minPrice" name="minPrice" required="true"/></div>
+      <div class="form-group"><label class="text-center" for="maxPrice">Maximal
+        Price: </label><input
+          class="form-control" id="maxPrice" name="maxPrice" required="true"/></div>
+      <div class="form-group"><label class="text-center" for="street">Street: </label><input
+          class="form-control" id="street" name="street" required="true"/></div>
+      <div class="form-group"><label class="text-center" for="rooms">Rooms: </label><input
+          class="form-control" id="rooms" name="rooms" required="true"/></div>
+      <div class="form-group"><label class="text-center" for="maxDuration">Max Duration of travel in
+        minutes</label><input class="form-control" id="maxDuration" name="maxDuration"
+                              required="true"/>
+      </div>
+      <div class="form-group"><label class="text-center" for="maxDistance">Maximal
+        Distance: </label><input class="form-control" id="maxDistance" name="maxDistance"
+                                 required="required"/></div>
+      <select class="form-group" name="travelType">
+        <option value="WALKING">Walking</option>
+        <option value="DRIVING">Driving</option>
+        <option value="BICYCLING">Bicykling</option>
+      </select>
+      <p><input type="submit" value="Send"/></p>
 </form>
+  </div>
+  <div class="col-sm-8">
+    <h3>Welcome in advance Ads finder by Team1</h3>
+    <img src="http://www.hmc.ox.ac.uk/wp-content/uploads/2015/05/FLAT-3-APSLEY-COURT-2.jpg"
+         alt="Flat" width="700" height="350"/>
+    <h3>In this application you can find apartment by 'how far it is from another point?' and by 'by
+      long it gonna take to get from one point to another?' </h3>
+  </div>
 </div>
 </body>
 </html>

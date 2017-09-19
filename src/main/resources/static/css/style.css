@@ -19,10 +19,6 @@ header {
   align-content: center;
 }
 
-#table head {
-  background-color: aquamarine;
-}
-
 tr {
   border-bottom: double slateblue;
 }
@@ -35,6 +31,6 @@ tr {
   margin-top: 0%;
 }
 
-body {
-  background-color: burlywood;
+#results Table {
+  background-color: cadetblue;
 }
