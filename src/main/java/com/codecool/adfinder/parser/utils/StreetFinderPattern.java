@@ -1,27 +1,18 @@
-package com.codecool.adfinder.parser.olx.utils;
+package com.codecool.adfinder.parser.utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class StreetFinderPattern {
-
-    private static StreetFinderPattern ourInstance = new StreetFinderPattern();
-    private final String filename = "streets.txt";
+public class StreetFinderPattern implements StreetFinderStrategy{
     private Pattern pattern;
+    private final String filename = "streets.txt";
 
-    private StreetFinderPattern() {
+    public StreetFinderPattern() {
         createPattern();
-    }
-
-    public static StreetFinderPattern getInstance() {
-        return ourInstance;
-    }
-
-    public Pattern getPattern() {
-        return pattern;
     }
 
     private void createPattern() {
@@ -54,5 +45,14 @@ public class StreetFinderPattern {
         }
         bufferedReader.close();
         return records;
+    }
+
+    @Override
+    public String getStreet(String description) {
+        Matcher matcher = pattern.matcher(description);
+        if (matcher.find()) {
+            return matcher.group();
+        }
+        return null;
     }
 }

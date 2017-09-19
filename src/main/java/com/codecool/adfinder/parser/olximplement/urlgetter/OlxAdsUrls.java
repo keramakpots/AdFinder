@@ -1,29 +1,27 @@
-package com.codecool.adfinder.parser.olx.urlgetter;
+package com.codecool.adfinder.parser.olximplement.urlgetter;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import com.codecool.adfinder.parser.AdsUrlsStrategy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-public class AdsUrlsGetter {
+import java.io.IOException;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+public class OlxAdsUrls implements AdsUrlsStrategy {
     private static boolean isUrlsSet = false;
     private final String url = "https://www.olx.pl/nieruchomosci/mieszkania/wynajem/krakow/";
     private final String page = "?page=";
-    private final Integer maxPage = 10;
+    private final Integer maxPage = 3;
     private Integer currentPageNumber;
     private List<Document> listOfHtmlPages;
     private Set<String> urls;
 
-    public void parseForUrls() throws IOException {
-        createListOfDocuments();
-        getUrlsFromHtmlPages();
+
+    @Override
+    public void execute() throws IOException {
+        parseForUrls();
     }
 
     public Set<String> getUrls() {
@@ -33,12 +31,16 @@ public class AdsUrlsGetter {
         return null;
     }
 
+    private void parseForUrls() throws IOException {
+        createListOfDocuments();
+        getUrlsFromHtmlPages();
+    }
+
     private void getUrlsFromHtmlPages() {
         if (!isUrlsSet) {
             urls = new HashSet<>();
             for (Document sourceCode : listOfHtmlPages) {
-                urls.addAll(normalizeUrls(removeNotOLXUrls(
-                    sourceCode.getElementsByClass("marginright5").eachAttr("href"))));
+                urls.addAll(normalizeUrls(removeNotOLXUrls(sourceCode.getElementsByClass("marginright5").eachAttr("href"))));
             }
             isUrlsSet = true;
         }
@@ -47,8 +49,7 @@ public class AdsUrlsGetter {
     private List<String> normalizeUrls(List<String> listOfUrlsWithEnd) {
         for (int i = 0; i < listOfUrlsWithEnd.size(); i++) {
             if (listOfUrlsWithEnd.get(i).endsWith(";promoted")) {
-                String correctUrl = listOfUrlsWithEnd.get(i)
-                    .substring(0, listOfUrlsWithEnd.get(i).length() - 9);
+                String correctUrl = listOfUrlsWithEnd.get(i).substring(0, listOfUrlsWithEnd.get(i).length() - 9);
                 listOfUrlsWithEnd.set(i, correctUrl);
             }
         }
