@@ -35,9 +35,10 @@
     </thead>
     <tbody>
     <tr th:each="offer : ${offers}">
-      <td><a th:href="${offer.url}">See offer</a></td>
+      <td><a target="_blank" th:href="${offer.url}">See offer</a></td>
       <td th:text="${offer.title}"></td>
-      <td><a th:href="${'https://www.google.com/maps/search/?api=1&amp;query=Krakow+'+offer.street}"
+      <td><a target="_blank"
+             th:href="${'https://www.google.com/maps/search/?api=1&amp;query=Krakow+'+offer.street}"
              th:text="${offer.street}"></a></td>
       <td>
         <button type="button" class="btn" data-toggle="modal"
