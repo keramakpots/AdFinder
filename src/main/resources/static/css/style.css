@@ -16,7 +16,7 @@ header {
 }
 
 tr {
-  border-bottom: double slateblue;
+  border-bottom: double medium;
 }
 
 body {
@@ -27,21 +27,23 @@ body {
 h1 {
   margin-left: 5%;
   margin-right: 5%;
-  background-color: darkgoldenrod;
+  background-color: darkgrey;
 }
 
+/*noinspection CssUnusedSymbol*/
 #cont-body {
-  background-color: indianred;
+  background-color: lightgreen;
   margin: auto;
 }
 
+/*noinspection CssUnusedSymbol*/
 .container {
   border: double 3px darkslategrey;
-  background-color: chocolate;
+  background-color: khaki;
   align-items: flex-start;
   margin: auto;
 }
 
 input:hover {
-  background-color: darkgoldenrod;
+  background-color: darkseagreen;
 }

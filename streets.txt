@@ -4,145 +4,224 @@
  Drukarska
  Wiazowa
  Polna
+ Polnej
  Na Stawach
  Tysiaclecia
+ Tysiąclecia
  Jana Kasprowicza
  Sobotka
  Wincentego Oszustowskiego
  sw. Wincentego
+ św. Wincentego
  Świętojańska
+ Świętojańskiej
  Tadeusza Wyrwy-Furgalskiego
  Pienińska
+ Pienińskiej
  Powały z Taczewa
  Tadeusza Banachiewicza
  Kuśnierska
+ Kuśnierskiej
  Dróżka
  3 Maja
  Do Wisły
  Gustawa Pokrzywki
  Deboroga
  Jerzego Lande
+ Jerzego Landego
  Koscielna
+ Kościelnej
  Tatarakowa
  Józefa Herzoga
  Pod Janem
  Pod Sowińcem
  Koszalińska
+ Koszalińskiej
  Sanocka
  Trawiasta
+ Trawiastej
  Mirowska
+ Mirowskiej
  Józefa Ignacego Kraszewskiego
  Zakątek
+ Zakątku
  Teodora Parnickiego
  Wielkie Pola
  Piotra Wysockiego
  Batalionu "Skała" AK
  Macieja Słomczyńskiego
  Saska
+ Saskiej
  Srodkowa
+ Środkowa
+ Środkowej
  Krowodrza Górka
  gen. Antoniego Jozefa Madalinskiego
  Centkiewiczow
+ Centkiewiczów
  Niedzwiedziny
+ Niedźwiedziny
  Balanówka
  Podrzecze
  Aleksandra Fredry
  Lasogorska
+ Lasogórska
+ Lasogórskiej
  Pleszowska
+ Pleszowskiej
  Czechoslowacka
+ Czechosłowacka
+ Czechosłowackiej
  Wodocza
  Owsiana
+ Owsianej
  Michała Korpala
  Wroclawska
+ Wroclawskiej
+ Wrocławskiej
  Karola Kurpinskiego
+ Karola Kurpińskiego
  Rybaltowska
+ Rybałtowska
+ Rybałtowskiej
  Krakowiaków
  Zablocie
  Józefa Narzymskiego
  Braci Jamkow
  Krzewowa
+ Krzewowej
  Żniwna
  Stanislawa Jasiukowicza
  Jana Hallera
  Gnieznienska
+ Gnieznieńska
+ Gnieznieńskiej
  Rymarska
+ Rymarskiej
  Janiny Porazinskiej
  Mlodziezy
+ Młodzieży
  Kukiełek Golkowickich
  Wladyslawa Natansona
  Jana Kilinskiego
  Akademickie
+ osiedle Akademickie
  Boleslawa Chrobrego
  Ostatnia
+ Ostatniej
  Juliusza Kleinera
  Smolarzy
  Centralny im. Ronalda Reagana
  Szymona Zimorowicza
  Radziwillowska
+ Radziwiłłowska
+ Radziwiłłowskiej
  gen. Józefa Kustronia
  Turystyczna
+ Turystycznej
  Walerego Gadomskiego
  Groszkowa
+ Groszkowej
  Zbyszka z Bogdanca
+ Zbyszka z Bogdańca
  Nowolipki
  Ukośna
+ Ukośnej
  płk. Józefa Spychalskiego
  Bolesława Kontryma
  Mierzeja Wislana
  harc. Stanisława Millana
  Poniedzialkowy Dol
+ Poniedziałkowy Dół
  gen. Witolda Urbanowicza
  Bronowicka
+ Bronowickiej
  Podlacze
+ Podłącze
  Pajęcza
+ Pajęczej
  Józefa Wybickiego
  Lazurowa
+ Lazurowej
  Wladyslawa Broniewskiego
  Chabrowa
+ Chabrowej
  Franciszka Kłaka
  Władysława Krygowskiego
  Tenczynska
+ Teńczyńska
+ Teńczyńskiej
  Jozefa Herzoga
  ks. Franciszka Blachnickiego
  Wiślicka
+ Wiślickiej
  Cwiklowa
+ Ćwikłowa
  Gęsia
+ Gęsiej
  Leopolda Lisa-Kuli
  Swietej Rodziny
+ Świętej Rodziny
  Pod Skałą
  Naleczowska
+ Naleczowskiej
  Imielna
+ Imielnej
  Pana Cogito
+ Strażacka
  Strazacka
+ Strażackiej
  Heleny i Leona Patynow
+ Heleny i Leona Patynów
  Kalwaryjska
+ Kalwaryjskiej
  Golkowicka
+ Golkowickiej
+ Gołkowickiej
+ Gołkowicka
  Podgwiezdna
+ Podgwiezdnej
  dr. Tadeusza Kudlinskiego
+ dr. Tadeusza Kudlińskiego
  Henryka Pachońskiego
  Wędrowników
  Lwowska
+ Lwowskiej
  Perlowa
+ Perłowa
+ Perłowej
  Wadowicka
+ Wadowickiej
  Berdyczowska
+ Berdyczowskiej
  sw. Tomasza
+ św. Tomasza
  Adama Staszczyka
  Mazurska
+ Mazurskiej
  Jerzego Fedkowicza
  Tadeusza Wazewskiego
  Zielone
  8 Pulku Ulanow
+ 8 Pulku Ułanów
  Mariana Domagaly
+ Mariana Domagały
  Żeńców
  Sienna
+ Siennej
  Koralowa
+ Koralowej
  Prosta
+ Prostej
  Mosiężnicza
+ Mosiężniczej
  Zygmunta Mlynarskiego
  prof. Tadeusza Seweryna
+ Tymiankowej
  Tymiankowa
  Bronislawa Czecha
  Gleboka
+ Glebokiej
  Jana Bułhaka
  Mierniczych
  Jozefa Wybickiego
@@ -150,16 +229,20 @@
  Pod Pomnikiem
  Niepokalanej Panny Marii
  Rosista
+ Rosistej
  Topografów
  Mieczników
  św. Gertrudy
  Łąkowa
+ Łąkowej
  Lawendowa
+ Lawendowej
  Michala Hutnika
  Nadwislanska
+ Nadwislanskiej
  Moczydło
  Franciszka Wężyka
- Celarowska
+ Celarowskiej
  Bartników
  Błażeja Czepca
  Billewiczow
@@ -167,229 +250,357 @@
  Kordiana
  Jana Stanislawskiego
  Tadeusza Kasprzyckiego
+ Wislickiej
  Wislicka
+ Wiślicka
+ Wiślickiej
  Wladyslawa Skoczylasa
  Szczepański
  Nad Dlubnia
  Olkuska
+ Olkuskiej
  Józefa Brodowicza
  Gustawa Ehrenberga
  Rekawka
+ Rekawki
+ Rękawki
+ Rękawka
  Zielona
+ Zielonej
  Za Sklonem
  Maksymiliana i Stanisława Cerchów
  Leona Wyczolkowskiego
  Czeczeńska
+ Czeczeńskiej
  Jozefa Morozewicza
  Erazma Jerzmanowskiego
  Lublanska
+ Lublanskiej
  Slaska
+ Śląska
+ Śląskiej
  Drozka
+ Dróżka
  gen. Wladyslawa Sikorskiego
  Na Łąkach
  Feliksa Radwanskiego
+ Feliksa Radwańskiego
  Czerwonego Prądnika
  Zeslawicka
+ Zeslawickiej
  Łężce
  Jozefa Brodowicza
  Zbrojarzy
  Jodlowa
+ Jodłowa
+ Jodłowej
  Zwyciestwa
+ Zwycięstwa
  Astronautow
+ Astronautów
  Franciszka Zabłockiego
  Złoczowska
+ Złoczowskiej
  Na Zaleczu
  Wiewiorcza
+ Wiewiorczej
  Wladyslawa Ekielskiego
  Adolfa Szyszki-Bohusza
  Nadwiślańska
+ Nadwiślańskej
  Narcyzy Zmichowskiej
- Hetmanska
+ Hetmanskiej
  por. Wachaly
+ por. Wąchaly
  Zabia
+ Żabia
  Hoza
+ Hoża
  Zyndrama z Maszkowic
  Jagodowa
+ Jagodowej
  Czorsztynska
+ Czorsztyńska
+ Czorsztyńskiej
  ks. Jozefa Meiera
  Nowa Gorka
  Slona Woda
  Szkolkowa
+ Szkółkowa
+ Szkółkowej
  Pocztowa
  Bohaterow Wrzesnia
+ Bohaterow Września
  Na Wiankach
- Zagosciniec
- Cichy Kacik
+ Zagościniec
+ Cichy Kącik
  Przykopy
  Beskidzka
+ Beskidzkiej
  Pejzazowa
+ Pejzażowa
+ Pejzażowej
  Na Dolach
  Edmunda Krzymuskiego
  Marii Kownackiej
  Budrysow
+ Wrożenicka
+ Wrożenickiej
+ Wrozenickiej
  Wrozenicka
  Sidzińska
+ Sidzińskiej
  Bukietowa
+ Bukietowej
  Zaulek
+ Zaułek
  Józefa Pankiewicza
  Grochowa
+ Grochowej
  Wloska
+ Wloskiej
+ Włoskiej
+ Włoska
  Komasy
  prof. Michala Bobrzynskiego
  Urodzajna
+ Urodzajnej
  Narcyza Wiatra
  Henryka Flame
  Bożywoja
  Stefana Garczynskiego
  Leopolda Staffa
  Kąkolowa
+ Kąkolowej
  Jana Styki
  Karola Irzykowskiego
  Kwartowa
+ Kwartowej
  Mieczysława Niedziałkowskiego
  gen. Leopolda Okulickiego
- Lucznikow
+ Luczników
  Wandy
  Na Wyrębę
  Głębinowa
- Siarczanogórska
+ Głębinowej
+ Siarczanogórskej
  Strumyk
  Dereniowa
+ Dereniowej
  Antoniego Dobrowolskiego
  dr. Judyma
  Estreicherow
+ Estreicherów
  Ziemska
+ Ziemskej
  Jana i Jędrzeja Śniadeckich
  Stanislawa Kostki Potockiego
  Mazowiecka
+ Mazowieckej
  Świdnicka
+ Świdnickej
  Dęboroga
  Erazma i Stanisława Fabijańskich
  Tomasza Zana
  Danalowka
+ Danalówka
  Przegorzalska
+ Przegorzalskej
  Niebyla
  Na Borach
  św. Rafała Kalinowskiego
  Skotnicka
+ Skotnickiej
  sw. Gertrudy
+ św. Gertrudy
  Hołdu Pruskiego
  Romana Kiełkowskiego
  Oboźna
+ Oboźnej
  Starowiejska
+ Starowiejskiej
  Mariana Domagały
  Aleksandra Orłowskiego
  Olsztyńska
+ Olsztyńskiej
  Ciepłownicza
+ Ciepłowniczej
  Mieczysława Kamberskiego
  inz. Adama Bielanskiego
  Złotego Wieku
  Stoczniowców
  Brązownicza
+ Brązowniczej
  Pod Szańcami
  Gorali
+ Górali
  Nad Sudołem
  Krańcowa
+ Krańcowej
  Rodziny Jedow
  Koszykarska
+ Koszykarskiej
  Waclawa Lipinskiego
+ Waclawa Lipińskiego
  Długa
+ Długiej
  Maksymiliana i Stanislawa Cerchow
+ Maksymiliana i Stanisława Cerchów
  Michała Ossowskiego
  Winowcow
+ Winowców
  Jana Brozka
  Swidnicka
+ Świdnickiej
+ Świdnicka
  Powstańców Śląskich
  św. Łazarza
  Mikołajska
+ Mikołajskiej
  Borkowska
+ Borkowskiej
  Port Solny
  Antoniego Pajdaka
  Nad Baranowka
+ Nad Baranówka
  Pysonce
+ Pysońce
  Kanarkowa
+ Kanarkowej
  Jana Sabaly
+ Jana Sabały
  Zielony Dół
  Madera
  Bagienna
+ Bagiennej
  Zygmunta Wroblewskiego
+ Zygmunta Wróblewskiego
  Franciszka Niepokolczyckiego
  Zaglowa
+ Żaglowa
+ Żaglowej
  Myślenicka
+ Myślenickiej
  Szpitalna
+ Szpitalnej
  Arianska
+ Arianskiej
  Batalionu "Zoska"
  Przewóz
  Kapucynska
+ Kapucyńska
+ Kapucyńskiej
  Odmogile
  dr. Jozefa Babinskiego
  Józefa Morozewicza
  Leona Misiolka
+ Leona Misiołka
  Jozefa Kmietowicza
  6 Sierpnia
  Naglowicka
+ Naglowickiej
+ Nagłowickiej
+ Nagłowicka
  Mikołaja Wierzynka
  Józefa Unruga
  Skosna
+ Skośna
+ Skośnej
  Jana Aleksandra Gorczyna
  Blawatkowa
+ Bławatkowa
+ Bławatkowej
  Świeża
+ Świeżej
  Bartosza
  Tadeusza Śliwiaka
  Martenowska
+ Martenowskej
  Kmr. Bohdana Wronskiego
  Hanny Mortkowicz-Olczakowej
  Kanonicza
+ Kanoniczej
  Batalionu "Zośka"
  Zofii Stryjenskiej
  ks. Zygmunta Kaczynskiego
  Franciszka Kajty
  Mydlnicka
+ Mydlnickiej
  Kołodziejska
+ Kołodziejskiej
  Pod Struga
  Fabryczna
+ Fabrycznej
  Ptasia
+ Ptasiej
  Ukryta
+ Ukrytej
  Na Leszczu
  Wioślarska
+ Wioślarskej
  Zolnierska
+ Żołnierska
+ Żołnierskej
  Pod Fortem
  Medyczna
+ Medycznej
  Kościuszkowców
  Jasielska
+ Jasielskiej
  Zawodzie
+ Zawodziu
  Wrzesinska
+ Wrzesińska
+ Wrzesińskiej
  Aleksandra Prystora
  Deszczowa
+ Deszczowej
  Sandora Petöfiego
  Wiklinowa
+ Wiklinowej
  Szwedzka
+ Szwedzkiej
  Tęczowa
+ Tęczowej
  Ignacego Daszynskiego
  Ignacego Paderewskiego
  Nad Strugą
  Waleczna
+ Walecznej
  Na Szaniec
  Hubalczyków
  Bocheńska
+ Bocheńskiej
  Wodna
+ Wodnej
  Pajecza
+ Pajeczej
+ Pajęczej
  Jerzego Potrzebowskiego
  Edwarda Szymanskiego
  Bazancia
+ Bażancia
+ Bażanciej
  Wenecja
  Kędzierzyńska
+ Kędzierzyńskiej
  Jemiołuszek
  Skibowa
+ Skibowej
  Brunona Schulza
  Opatkowicka
+ Opatkowickiej
  Maksyma Rylskiego
  Śnieżna
+ Śnieżnej
  Adama Krzyzanowskiego
  Przy Torze
  Polonijna
+ Polonijnej
  Ciasna
+ Ciasnej
  Wolska
+ Wolskiej
  Ludomira Różyckiego
  Kazimierza Pulaskiego
  Na Polankach
@@ -399,49 +610,72 @@
  Strzelców
  gen. Tadeusza Kościuszki
  Staromostowa
+ Staromostowej
  Piotra Brzezinskiego
+ Piotra Brzezińskiego
  Henryka Czeczotta
  Piusa Welonskiego
  Duchacka
+ Duchackiej
  Pana Tadeusza
  Franciszka Pększyca-Grudzińskiego
  Aleksandra Kotsisa
  Stanisława Staszica
  Franciszka Wezyka
+ Franciszka Wężyka
  Juliusza Kossaka
  Za Lipkami
  Luczanowicka
+ Luczanowickiej
  Łapanowska
+ Łapanowskiej
  Ryszarda Berwińskiego
  Bienczycka
+ Bienczyckiej
  Bociana
  Gipsowa
- sw. Andrzeja Boboli
+ Gipsowej
+ św. Andrzeja Boboli
  Nikifora
  Zmartwychwstania Panskiego
+ Zmartwychwstania Pańskiego
  Paproci
  Okrężna
+ Okrężnej
  Łamana
- Kat#
+ Łamanej
+ Kąt
  Marcina Borelowskiego "Lelewela"
  Wladyslawa Raczkiewicza
+ Władyslawa Raczkiewicza
  Zdrowa
+ Zdrowej
  Stanislawa Worcella
  Chlebiczna
+ Chlebicznej
  Jablonkowska
+ Jablonkowskiej
  Sikorki
  Grzegorzecka
+ Grzegorzeckiej
  Pejzażowa
+ Pejzażowej
  Rzemieslnicza
+ Rzemieslniczej
+ Rzemieślniczej
  Twardowskiego
  Sarmacka
+ Sarmackiej
  prof. Zdzislawa Czeppe
  Ogorkowa
+ Ogorkowej
  Białoprądnicka
+ Białoprądnickiej
  gen. Ignacego Prądzyńskiego
  Włodzimierza Gruszczyńskiego
  Pasterska
- Marynarska
+ Pasterskiej
+ Marynarskiej
  Feliksa Konecznego
  ks. Józefa Meiera
  gen. Tadeusza Pełczyńskiego
@@ -449,92 +683,137 @@
  Kazimierza Pluty-Czachowskiego
  Wladyslawa Czaplickiego
  Slowicza
+ Slowiczej
+ Słowiczej
  Mostowa
+ Mostowej
  prof. Władysława Szafera
  Konstantego Ciołkowskiego
  Florianska
+ Floriańskiej
  Usmiech
+ Uśmiech
  Mariana Raciborskiego
  Michała Zientary
  św. Piotra
  Zaciernie
  Błotna
+ Błotnej
  gen. Henryka Kamienskiego
+ gen. Henryka Kamieńskiego
  św. Wincentego
  Nadbrzeżna
+ Nadbrzeżnej
  Sielska
+ Sielskiej
  Lazy
+ Łazy
  Zieleniec
  Mieczyslawa Karlowicza
  Aleksandra Humboldta
  Stefana Banacha
  Portowa
+ Portowej
  Walerego Goetla
  Wojciecha Bogusławskiego
  Sajakowka
+ Sajakowkiej
  Stanisława Skarżyńskiego
  Siemomysla
+ Siemomysła
  Jana Kurczaba
  Lirników
  Andrieja Sacharowa
+ Andrieja Sacharowej
  Ubeliny
- Sołtysowska
+ Sołtysowskiej
  Jana Nowaka
  2 Pulku Lotniczego
+ 2 Pułku Lotniczego
  ks. Stefana Pawlickiego
  Tyniecka
+ Tynieckiej
  Oswiecimska
+ Oswiecimskiej
+ Oświęcimskiej
  św. Wawrzyńca
  Matematykow Krakowskich
  marsz. Mikolaja Wolskiego
+ marsz. Mikołaja Wolskiego
  Hetmańska
+ Hetmańskiej
  Makowa
+ Makowej
  Henryka Rowida
  Lesista
+ Lesistej
  Wladyslawa Rozena-Jaksy
+ Władysława Różena-Jaksy
  Lisciasta
+ Lisciastej
  Lesisko
  Szmaragdowa
- Dworska
+ Szmaragdowej
+ Dworskiej
  Stanisława Pronia
+ Tarłowskiej
  Tarłowska
  Jabłonowskich
  Burgundzka
+ Burgundzkiej
  Pod Strzecha
  Dąbrowa
  Letnia
+ Letniej
  Blotna
+ Blotnej
  Kadrówki
  Stanislawa Jachowicza
  Kaimska
+ Kaimskiej
  Leona Ślósarczyka
  Uniwersalu Polanieckiego
+ Uniwersału Połanieckiego
  Rafała Czerwiakowskiego
  Dabska
+ Dabskiej
+ Dąbskiej
  Do Wisly
  św. Maksymiliana Marii Kolbego
  Prokocimska
+ Prokocimskiej
  Widnokrąg
  prof. Jerzego Wisniewskiego
  Władysława Poturalskiego
  Boleslawa Wstydliwego
  Gdanska
+ Gdanskiej
  Chojnicka
+ Chojnickiej
  Puszczykow
  Sloneczne
+ Słoneczne
  Stefana Rogozinskiego
+ Stefana Rogozińskiego
  Łosiówka
  Mierzeja Wiślana
  Zaszkolna
+ Zaszkolnej
  Mieczysława Owcy-Orwicza
  Rodzinna
+ Rodzinnej
  Jagielka
  Stroma
+ Stromej
  Czeslawa Niemena
+ Czesława Niemena
  Pszczelna
+ Pszczelnej
  prof. Kazimierza Tadeusza Opalka
  Mikolaja Jaskra
+ Mikołaja Jaskra
  Barwna
+ Barwnej
  Jacka Kluszewskiego
  Geodetow
  Ksawerego Pruszynskiego
@@ -543,78 +822,117 @@
  Walentego Florkowskiego
  Janosika
  Szczepanska
+ Szczepanskiej
  Krzemieniecka
+ Krzemienieckiej
  Opalowa
+ Opalowej
+ Opałowej
+ Opałowa
  Feliksa Księżarskiego
  Andrzeja Waligórskiego
  Karowa
+ Karowej
  Andrzeja Struga
  Jana Zygmunta Robla
  Kalwinska
+ Kalwińska
+ Kalwińskiej
  Waclawa Nalkowskiego
+ Waclawa Nałkowskiego
  Maurycego Mochnackiego
  Konrada Wallenroda
  Bialych Brzoz
  Jacka Malczewskiego
- Nowy#
+ Nowy
+ Wąska
  Waska
+ Waskiej
  Sidzinska
+ Sidzinskiej
  Morgi
  Stefana Jaracza
  Lusińska
+ Lusińskiej
  Stanisława Tomkowicza
  Stanisława Gołąba
  Barbary Radziwillowny
+ Barbary Radziwiłłówny
  Westerplatte
  Waclawa Gasiorowskiego
  dr. Ludwika Zamenhofa
  Jaskolcza
+ Jaskolczej
+ Jaskółczej
+ Jaskółcza
  Stanisława Kasznicy
  Gesia
+ Gęsiej
  Szczecińska
+ Szczecińskiej
  Wieslawa Zarzyckiego
  Na Grządkach
  Stanisława Szczygielskiego
  Butrymów
  Pawia
+ Pawiej
  Ludomiła Korczyńskiego
  Rzeźnicza
+ Rzeźniczej
  Mietowa
+ Mietowej
+ Miętowej
  Szwolezerow
+ Szwoleżerów
  por. Emira
  Okopowa
+ Okopowej
  Cystersow
  Misjonarska
+ Misjonarskej
  Stepowa
+ Stepowej
  Andrzeja Frycza-Modrzewskiego
  Starego Dębu
  Biesiadna
+ Biesiadnej
  Szymona Marycjusza
  Aleksandra Lubomirskiego
  Nierówna
+ Nierównej
  Michala Stachowicza
  Wrzesińska
+ Wrzesińskej
  Górna
- Cyprysow
+ Górnej
+ Cyprysów
  Młyńska-Boczna
  Kadrowki
+ Kadrówki
  Kaliska
+ Kaliskiej
  Henryka Müncha
  Śliska
+ Śliskiej
  Karola Łowińskiego
  Waleriana Łukasińskiego
  Bozego Milosierdzia
+ Bożego Miłosierdzia
  Batalionów Chłopskich
  Przełazek
  Jana Gajocha
  Marka Kublinskiego
  Jozefa Pankiewicza
  Zlocieniowa
+ Zlocieniowej
+ Złocieniowej
  Przyrodnicza
+ Przyrodniczej
  Aleksandra Gryglewskiego
  Zawiszy
  Armii Krajowej
  Okulistow
+ Okulistów
  Semperitowców
  Romana Florera
  Za Torem
@@ -623,48 +941,66 @@
  Leona Petrazyckiego
  Hieronima Pinocci
  Andrzeja Sokołowskiego
- sw. Agnieszki
+ św. Agnieszki
  Podlesie
  Wilhelma Feldmana
  gen. Józefa Olszyny-Wilczyńskiego
  Wielkich Pieców
  Rabczańska
+ Rabczańskiej
  Na Lakach
+ Na Ląkach
  Bogucicka
+ Bogucickiej
  Rydlówka
- Suche Laki
+ Suche Ląki
  Tadeusza Sobesto
  Zaporębie
  gen. Michała Karaszewicza-Tokarzewskiego
- Cicha#
+ Cicha
  Kazimierza Czapińskiego
  Józefa Ostafina
  Stanisława Dubois
  Adolfa Aleksandrowicza
  Justowska
+ Justowskiej
  Marcelego Nenckiego
  Muzyków
  Slawkowska
+ Sławkowska
+ Sławkowskiej
  Stanisława Mitery
  Sucha
+ Suchej
+ Niepołomska
+ Niepołomskiej
  Niepolomska
  Pilkarska
+ Pilkarskiej
  Cienista
+ Cienistej
  Brzozowa
+ Brzozowej
  Marii Skłodowskiej-Curie
  Henryka Kułakowskiego
  Dukatów
  Franciszkanska
+ Franciszkańskiej
  Jeżynowa
+ Jeżynowej
  marsz. Edwarda Rydza-Smiglego
  Tadeusza Ptaszyckiego
  Iwonicka
+ Iwonickiej
  Bronisława Schönborna
  Ofiar Dabia
+ Ofiar Dąbia
  Walgierza Wdalego
  Bydgoska
+ Bydgoskiej
  Ludwika Jedrzejczyka
  Wszystkich Swietych
+ Wszystkich Świętych
  Cypriana Godebskiego
  Braci Dudzińskich
  gen. Mariana Kukiela

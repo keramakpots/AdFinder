@@ -11,8 +11,6 @@
   <link th:href="@{/css/map.css}" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<input id="pac-input" class="controls" type="text" placeholder="Search"/>
-<div id="map"></div>
 <div class="container">
   <div class="jumbotron">
 <div id="results Table">
@@ -35,10 +33,9 @@
     </thead>
     <tbody>
     <tr th:each="offer : ${offers}">
-      <td><a target="_blank" th:href="${offer.url}">See offer</a></td>
+      <td><a th:href="${offer.url}">See offer</a></td>
       <td th:text="${offer.title}"></td>
-      <td><a target="_blank"
-             th:href="${'https://www.google.com/maps/search/?api=1&amp;query=Krakow+'+offer.street}"
+      <td><a th:href="${'https://www.google.com/maps/search/?api=1&amp;query=Krakow+'+offer.street}"
              th:text="${offer.street}"></a></td>
       <td>
         <button type="button" class="btn" data-toggle="modal"
@@ -77,5 +74,7 @@
 <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDScsZk-txjV2SQXzQQX05E_Gul1W4nkT0&amp;libraries=places&amp;callback=initAutocomplete"
     async="async" defer="defer"></script>
+<input id="pac-input" class="controls" type="text" placeholder="Search"/>
+<div id="map"></div>
 </body>
 </html>

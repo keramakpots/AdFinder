@@ -10,24 +10,29 @@ html, body {
   padding: 0;
 }
 
+/*noinspection CssUnusedSymbol*/
 #description {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
 }
 
+/*noinspection CssUnusedSymbol*/
 #infowindow-content .title {
   font-weight: bold;
 }
 
+/*noinspection CssUnusedSymbol*/
 #infowindow-content {
   display: none;
 }
 
+/*noinspection CssUnusedSymbol*/
 #map #infowindow-content {
   display: inline;
 }
 
+/*noinspection CssUnusedSymbol*/
 .pac-card {
   margin: 10px 10px 0 0;
   border-radius: 2px 0 0 2px;
@@ -39,11 +44,13 @@ html, body {
   font-family: Roboto;
 }
 
+/*noinspection CssUnusedSymbol*/
 #pac-container {
   padding-bottom: 12px;
   margin-right: 12px;
 }
 
+/*noinspection CssUnusedSymbol*/
 .pac-controls {
   display: inline-block;
   padding: 5px 11px;
@@ -70,6 +77,7 @@ html, body {
   border-color: #4d90fe;
 }
 
+/*noinspection CssUnusedSymbol*/
 #title {
   color: #fff;
   background-color: #4d90fe;
@@ -78,6 +86,7 @@ html, body {
   padding: 6px 12px;
 }
 
+/*noinspection CssUnusedSymbol*/
 #target {
   width: 345px;
 }
@@ -109,20 +118,18 @@ table {
 }
 
 tr {
-  border-bottom: 2px double slateblue;
+  border-bottom: 2px double darkslategrey;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 td:hover {
   border: 3px double steelblue;
-  background-color: darkgoldenrod;
+  background-color: lightgreen;
 }
 
 #results Table {
   background-color: cadetblue;
-  height: 90%;
-  width: 90%;
   margin: 20px;
   border: groove 2px blanchedalmond;
 }
@@ -135,6 +142,7 @@ h1, #return {
   margin-left: 5%;
 }
 
+/*noinspection CssUnusedSymbol*/
 .jumbotron {
   margin-top: 5%;
   background-color: darkkhaki;
