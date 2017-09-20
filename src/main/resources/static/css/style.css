@@ -26,6 +26,8 @@ body {
 
 h1 {
   margin-left: 5%;
+  margin-right: 5%;
+  background-color: darkgoldenrod;
 }
 
 #cont-body {
@@ -38,4 +40,8 @@ h1 {
   background-color: chocolate;
   align-items: flex-start;
   margin: auto;
+}
+
+input:hover {
+  background-color: darkgoldenrod;
 }

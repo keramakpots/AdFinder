@@ -114,8 +114,9 @@ tr {
   margin-bottom: 5px;
 }
 
-td {
+td:hover {
   border: 3px double steelblue;
+  background-color: darkgoldenrod;
 }
 
 #results Table {
