@@ -1,6 +1,6 @@
 #map {
-  height: 20%;
-  margin-left: 70%;
+  height: 40%;
+  margin-left: 55%;
 }
 
 /* Optional: Makes the sample page fill the window. */
@@ -93,7 +93,7 @@ html {
 }
 
 body {
-  background-color: burlywood;
+  background-color: darkseagreen;
 }
 
 header {
@@ -102,8 +102,20 @@ header {
   align-content: center;
 }
 
+table {
+  margin: 5%;
+  border: 3px double darkolivegreen;
+  background-color: burlywood;
+}
+
 tr {
-  border-bottom: double slateblue;
+  border-bottom: 2px double slateblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+td {
+  border: 3px double steelblue;
 }
 
 #results Table {
@@ -111,8 +123,18 @@ tr {
   height: 90%;
   width: 90%;
   margin: 20px;
+  border: groove 2px blanchedalmond;
 }
 
-table {
-  margin: 5%;
+#return {
+  color: black;
+}
+
+h1, #return {
+  margin-left: 5%;
+}
+
+.jumbotron {
+  margin-top: 5%;
+  background-color: darkkhaki;
 }

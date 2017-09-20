@@ -9,10 +9,6 @@ html {
   font-size: 12px;
 }
 
-body {
-  background-color: burlywood;
-}
-
 header {
   margin-left: 40%;
   margin-right: 40%;
@@ -23,14 +19,23 @@ tr {
   border-bottom: double slateblue;
 }
 
-.container {
-  align-items: flex-start;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: aquamarine;
-  margin-top: 0%;
+body {
+  background-color: darkolivegreen;
+  margin-right: auto;
 }
 
-#results Table {
-  background-color: cadetblue;
+h1 {
+  margin-left: 5%;
+}
+
+#cont-body {
+  background-color: indianred;
+  margin: auto;
+}
+
+.container {
+  border: double 3px darkslategrey;
+  background-color: chocolate;
+  align-items: flex-start;
+  margin: auto;
 }
