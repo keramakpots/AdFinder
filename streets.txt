@@ -1005,161 +1005,231 @@
  Braci Dudzińskich
  gen. Mariana Kukiela
  Stanislawa Stojalowskiego
+ Stanisława Stojałowskiego
  Kliny Borkowskie
  Eugeniusza Kwiatkowskiego
  Floriana Kotowskiego
  Kryniczna
+ Krynicznej
  Kluczborska
+ Kluczborskiej
  Wygoda
  Stanislawa Mikolajczyka
+ Stanislawa Mikołajczyka
  Solna
+ Solnej
  Rozana
+ Rozanej
+ Rożanej
+ Rożana
  Romualda Traugutta
  Krolewska
+ Królewska
+ Królewskiej
+ Mała
  Mala
  Zbożowa
  Bakalarzy
+ Bakałarzy
  Ludwika Gardowskiego
  Na Błonie
  Cygańska
+ Cygańskiej
  Stanislawa Konarskiego
  Michala Baluckiego
+ Michala Bałuckiego
+ Orła Białego
  Orla Bialego
  Przemyska
+ Przemyskiej
  Zaborze
  Jana Brzechwy
  Igolomska
+ Igolomskiej
+ Igołomskiej
+ Igołomska
  Ogleczyzna
  Lasówka
  Podmilow
+ Podmilów
  Wroblowicka
+ Wróblowicka
+ Wróblowickiej
  Podgórki
  Leśna
+ Leśnej
  Stanisława Witkiewicza
  Lakowa
+ Lakowej
+ Łąkowej
+ Łąkowa
  Borkowskie Blonia
+ Borkowskie Błonia
  prof. Bolesława Wiktora Wicherkiewicza
  Eugeniusza Baziaka
  Rabina Beera Meiselsa
  Kolista
+ Kolistej
  gen. Mieczyslawa Boruty-Spiechowicza
  Krakusów
  Telimeny
  Zwycięstwa
  Wadol
+ Wądół
  Wislisko
+ Wiślisko
  Towarowa
+ Towarowej
  Płoszczyny
  Łagiewnicki
  Gustawa Herlinga-Grudzińskiego
  Rybitwy
  Kolednicza
+ Kolędnicza
  Ciepła
+ Ciepłej
  Na Jazkach
  Promowa
+ Promowej
  gen. Józefa Sułkowskiego
  Miętowa
+ Miętowej
  Ostrow
  Czołgistów
  Dominika Zdziebly-Danowskiego
- sw. Bronislawy
+ św. Bronislawy
  Polnych Kwiatów
  Stanisława Pigonia
  Adama Ciolkosza
  Kącik
  Elzbiety Lokietkowny
+ Elżbiety Łokietkowny
  XX Pijarow
  Jana Stanisława Bystronia
  Zaklucze
  Krzywda
- Przemysłowa
+ Przemysłowej
  św. Marka
- Kosow
+ Kosów
  Lazowa
- Podchorazych
+ Lazowej
+ Łazowej
+ Podchorążych
  Stręcka
  prof. Jana Slaskiego
- Szerokie Laki
+ Szerokie Łąki
+ Szczepańskiej
  Szczepańska
  gen. Antoniego Józefa Madalińskiego
  Jana Zamoyskiego
  Holdu Pruskiego
  Lucjana Siemieńskiego
  Dolnych Mlynow
+ Dolnych Młynów
  Grębałowska
  Jaxy Gryfity
  Samorzadowa
+ Samorzadowej
  Wladyslawa Jagielly
+ Władysława Jagiełły
  Falecka
+ Fałęckiej
  Babinicza
  Stróża Rybna
  Augustyna Kordeckiego
  Żonkilowa
+ Żonkilowej
  Emila Dziedzica
  Wesele
  Mlaskotów
  Władysława Rożena-Jaksy
  Jerzego Kuryłowicza
  Piekarska
+ Piekarskiej
  Młynowa
+ Młynowej
  Klonowa
+ Klonowej
  Wewnetrzna
+ Wewnetrznej
  Waclawa Krola
+ Wacława Króla
  Obrońców Modlina
- Harcerska
+ Harcerskiej
  Budziszyńska
+ Budziszyńskiej
  Jana Gutenberga
  Kosynierów
  Północna
+ Północnej
  Medalionów
  Bartosza Glowackiego
  Elvisa Presleya
  Waclawa Berenta
  Michała Stachowicza
  Raczna
+ Racznej
  Bosakow
+ Bosaków
  Sudolska
  Józefa Strusia
  Bonifraterska
  Niebyła
+ Niebyłej
  Bartłomieja Groickiego
  Kornela Makuszyńskiego
  Na Załęczu
  Wita Stwosza
  Bohdana Zaleskiego
  Boczna
+ Bocznej
  Jeżów
  ks. Adolfa Zagrodzkiego
  Wyrwa
  Franciszka Kowalskiego
  Nowogrodzka
+ Nowogrodzkiej
  Miśnieńska
+ Miśnieńskiej
  Skladowa
+ Skłakowa
+ Skłakowej
  Zdzisława Przebindowskiego
  Adama Marczyńskiego
  Benedykta Cesarza
  Zabawa
  Jozefa Becka
+ Józefa Becka
  Na Zielonki
- Jozefa Ostafina
+ Józefa Ostafina
  Hugona Kołłątaja
  Gradowa
  Walerego Slawka
+ Walerego Sławka
  Kuźnicza
+ Kuźniczej
  Druhny Hanki
  Przełęcz
  Dominikanow
+ Dominikanów
  Ojcowska
+ Ojcowskiej
  Potoczek
  Tarnowska
+ Tarnowskiej
  Olgi Boznańskiej
  Jablonna
+ Jablonnej
  Startowa
+ Startowej
  Ludwinowska
+ Ludwinowskiej
  Lotnicza
+ Lotniczej
  Grenadierów
  Andrzeja Stopki
  Maczna
+ Macznej
  Jagiellońskie
  Kotlarska
  Maurycego Beniowskiego
@@ -1167,48 +1237,62 @@
  Zmujdzka
  bł. Franciszki Siedliskiej
  Mieczyslawa Wrony
+ Mieczysława Wrony
  Czerwonego Kapturka
  Kazimierza Pułaskiego
  Ludwika Hieronima Morstina
  Gwarna
+ Gwarnej
  Powroźnicza
+ Powroźniczej
  Izydora Stella-Sawickiego
  Wilhelma i Jana Ripperow
  Eugenii Uminskiej
+ Eugenii Umińskiej
  Koscielnicka
+ Kościelnickiej
  Marcina Bielskiego
- Dzielna
+ Dzielnej
  Jana Łazarskiego
  Teofila Aleksandra Lenartowicza
- Gospodarska
+ Gospodarskiej
  Mariana Markowskiego
  Piasta Kolodzieja
  Zamiejska
+ Zamiejskiej
  Gabriela Słońskiego
  Stanislawa Wojciechowskiego
  Bolesława Wstydliwego
  Półkole
  Henryka Brodatego
  Michala Drzymaly
+ Michała Drzymały
  Stelmachow
+ Stelmachów
  Kasy Oszczednosci M. Krakowa
  Blazeja Czepca
+ Błażeja Czepca
  Wladyslawa Spasowskiego
+ Władysława Spasowskiego
  ks. kard. Adama Stefana Sapiehy
  ks. Jerzego Popiełuszki
  Proszowicka
+ Proszowickiej
  Rusznikarska-Deptak
  Plomyczka
  Przemiarki
  prez. Edwarda Raczyńskiego
  Estery
  Franciszkańska
+ Franciszkańskiej
  Janusza Meissnera
  Stanisława Lema
  Czorsztyńska
+ Czorsztyńskiej
  św. Teresy
  Lajkonika
  Konopna
+ Konopnej
  Ketlinga
  Za Górą
  Zamłynie
@@ -1216,8 +1300,10 @@
  Szczegów
  Zygmunta Starego
  Nowosądecka
- Rymanowska
+ Nowosądeckiej
+ Rymanowskiej
  Strakowa
+ Strakowej
  gen. Władysława Andersa
  Babiego Lata
  Wiktora Heltmana
@@ -1233,6 +1319,8 @@
  Macieja Miechowity
  Kukielek Golkowickich
  Zbozowa
+ Zbożowa
+ Zbożowej
  Jana i Józefa Kotlarczyków
  Ruczaj
  Eugeniusza Eibischa
@@ -1241,93 +1329,139 @@
  Władysława Warneńczyka
  Polskiego Czerwonego Krzyża
  Podgorska
+ Podgórska
+ Podgórskiej
  Adolfa Nowaczyńskiego
  Kątowa
+ Kątowej
  Tretowka
  Karola Szymanowskiego
  Jerzego Zawieyskiego
  Wincentego Weryhy-Darowskiego
  bp. Jana Prandoty
  Nadrzeczna
+ Nadrzecznej
  Nowa#
  Stanisława ze Skalbmierza
  Ksiecia Jozefa
+ Księcia Józefa
  Michala Wolodyjowskiego
+ Michała Wołodyjowskiego
  rtm. Zbigniewa Dunin-Wasowicza
  Kłuszyńska
+ Kłuszyńskiej
  Józefa Montwiłła-Mireckiego
  Ludmiły Korbutowej
  Edwarda Bzymka-Strzalkowskiego
  Szczepanski
+ Szczepański
  Metalowcow
  Kazimierza Wielkiego
  Bolesława Krzywoustego
  ks. Władysława Dercza
  Roz#
+ Róż
  Jana i Jedrzeja Sniadeckich
+ Jana i Jedrzeja Śniadeckich
  Czwartakow
  Mysliwska
+ Myśliwska
+ Mysliwskiej
+ Myśliwskiej
  Żaglowa
+ Żaglowej
  Przyjemna
+ Przyjemnej
  Kościuszkowskie
  Krucza
+ Kruczej
  Zakrzowiecka
+ Zakrzowieckiej
  Anny Jagiellonki
  sw. Idziego
+ św. Idziego
  Olszecka
+ Olszeckiej
  Biale Wzgorze
+ Białe Wzgórze
  Przylasek
  gen. Jana Karcza
  Żurawia
+ Żurawiiej
  Smiala
+ Śmiała
  Krajobrazowa
+ Krajobrazowej
  Slonecznikowa
+ Słonecznikowa
+ Słonecznikowej
  Blotniska
  Wiślna
+ Wiślnej
  Kiejstuta Zemaitisa
  Kazimierza Odnowiciela
  Jaroslawa Dolinskiego
+ Jarosława Dolińskiego
  Michala i Stanislawa Jaglarzow
+ Michała i Stanisława Jaglarzów
  Jana Izydora Sztaudyngera
  Ceglarska
+ Ceglarskiej
  Niepodległości
  Spytka z Melsztyna
  Urzędnicza
+ Urzędniczej
  Macieja Slomczynskiego
+ Macieja Słomczyńskiego
  Anny Libera
  Elżbiety Drużbackiej
  Kosiarzy
  Obroncow Poczty Gdanskiej
  Cuplowa
+ Cuplowej
+ Cupłowej
  Juliana Tuwima
  Jordanowska
+ Jordanowskiej
  Łowienicka
+ Łowienickiej
  Igrców
  Kazimierza Morawskiego
  Margaretek
  Jeleniogórska
+ Jeleniogórskiej
  Kąt
  Bolesława Limanowskiego
  ks. Wladyslawa Gurgacza
  Przedwiośnie
  Górska
+ Górskiej
  Klemensa z Ruszczy
  Kuznicy Kollatajowskiej
+ Kuźnicy Kołłątajowskiej
  Strażacka
+ Strażackiej
  Budziszynska
+ Budziszyńska
+ Budziszyńskiej
  Na Luku
  Borowinowa
+ Borowinowej
  Zdzislawa Opiala
  Zielonogórska
+ Zielonogórskiej
  Kobierzynska
+ Kobierzynskiej
  Stanisławy Wysockiej
  Aliny
  Adama Prochnika
  Zaporebie
+ Zaporębie
  gen. Jakuba Jasińskiego
  Bocznica
  Młotków
  Kadecka
+ Kadeckiej
  Józefa Elsnera
  Ludwika Jędrzejczyka
  Kijanki
@@ -1335,116 +1469,183 @@
  Mariana Hemara
  Tadeusza Starca
  Wielkanocna
+ Wielkanocnej
  Tadeusza Micińskiego
  Kolejowa
+ Kolejowej
  Mieczykowa
+ Mieczykowej
+ Trybuny Ludów
  Trybuny Ludow
  Berka Joselewicza
  Kasztanowa
+ Kasztanowej
  Edwarda Dembowskiego
  Olsztynska
+ Olsztyńska
+ Olsztyńskiej
  Szarotki
  Zbyszka z Bogdańca
  Krzywa
+ Krzywej
  Antoniego Kepinskiego
+ Antoniego Kepińskiego
  Feliksa Szlachtowskiego
  Mala Gora
+ Mała Góra
  Romana Zelazowskiego
+ Romana Żelazowskiego
  Krowodrza Gorka
+ Krowodrza Górka
  Puszkarska
+ Puszkarskiej
  Wladyslawa Anczyca
  Rudni
  płk. Barty
- Miroslawa Dzielskiego
+ Mirosława Dzielskiego
  Kedzierzynska
+ Kędzierzyńska
+ Kędzierzynskiej
+ Kędzierzyńskiej
  Urszulki
  Stanislawa Augusta Poniatowskiego
  Złotej Jesieni
  Lesna
+ Leśna
+ Leśnej
  Józefa Bellerta
  Piłkarska
+ Piłkarskiej
  Zygmunta Wyrobka
  Jana Leopolda Tyranowskiego
  Kraka
  Stanisława Żółkiewskiego
  Rozalii Celakowny
- Starego Debu
+ Rozalii Celakówny
+ Starego Dębu
  Brzegowa
  Jaroslawska
+ Jarosławska
+ Jarosławskiej
  Konwisarzy
  Kokotowska
+ Kokotowskiej
  Braci Czechow
  Powstańców Wielkopolskich
  Piotra Michałowskiego
  Dominikanska
+ Dominikańska
+ Dominikańskiej
  Zabłocie
  Powstancow Wielkopolskich
+ Powstańców Wielkopolskich
  Poleska
+ Poleskiej
  Na Górkach
  Ochocza
- Stanislawa Brzozowskiego
+ Ochoczej
+ Stanisława Brzozowskiego
  Jana Palacha
  Wysoka
+ Wysokiej
  Slotna
+ Słotna
+ Slotnej
+ Słotnej
  Jabłonkowska
+ Jabłonkowskiej
  Mrowczana
+ Mrówczana
+ Mrówczanej
  Bluszczowa
+ Bluszczowej
  Kapielowa
- Stanislawa Lempickiego
- Bernarda Wapowskiego
+ Kąpielowa
+ Kąpielowej
+ Stanisława Lempickiego
+ Bernarda Wąpowskiego
  Bobrowa
+ Bobrowej
  Ilowa
+ Iłowa
+ Iłowej
  Franciszka Hypty
  Malborska
+ Malborskiej
  Murowana
+ Murowanej
  2 Pułku Lotniczego
- Inwalidow
+ Inwalidów
  Filtrowa
+ Filtrowej
  Kombatantów
  Tadeusza Rogalskiego
  Wacława Króla
  Kolejowe
  Torfowa
+ Torfowej
  Mlodosci
+ Młodości
  bp. Piotra Tomickiego
  Wlodarska
+ Włodarska
+ Włodarskiej
  Kosciuszkowskie
+ Kościuszkowskie
  Kielecka
+ Kieleckiej
  Łagiewnicka
+ Łagiewnickiej
  Braci Kiemliczow
  Czeslawa Janczarskiego
+ Czesława Janczarskiego
  Sodowa
+ Sodowej
  Chocimska
+ Chocimskiej
  bp. Filipa Padniewskiego
  Stadionowa
+ Stadionowej
  Kolo Strzelnicy
  Zofii Nalkowskiej
  Bohaterów Wietnamu
  Łanowa
+ Łanowej
  Bernardyńska
+ Bernardyńskiej
  Drożyna
  Kosynierow
+ Kosynierów
  Mieczyslawa Medweckiego
  Kazimierza Kostaneckiego
  Marii Pawlikowskiej-Jasnorzewskiej
  Na Wzgorzach
+ Na Wzgórzach
  Ulanow
+ Ułanów
  Jacka Augustyna Łopackiego
  Samuela Lindego
  Michała Wołodyjowskiego
  Dobczycka
+ Dobczyckiej
  Dobra#
  Kwiatów Polskich
  Pod Szancami
+ Pod Szańcami
  Libertowska
+ Libertowskiej
  Stefana Kisielewskiego
  ks. Ferdynanda Machaya
  Strzelecka
+ Strzeleckiej
  Leona Petrażyckiego
  Kantorowicka
+ Kantorowickiej
  Sobótka
  Kamieniarska
+ Kamieniarskiej
  Stefana Zeromskiego
+ Stefana Żeromskiego
  Krzemionki
  Żaków Krakowskich
  Obrony Tynca

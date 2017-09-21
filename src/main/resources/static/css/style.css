@@ -20,19 +20,19 @@ tr {
 }
 
 body {
-  background-color: darkolivegreen;
+  background-color: darkseagreen;
   margin-right: auto;
 }
 
 h1 {
   margin-left: 5%;
   margin-right: 5%;
-  background-color: darkgrey;
+  background-color: lightgreen;
 }
 
 /*noinspection CssUnusedSymbol*/
 #cont-body {
-  background-color: lightgreen;
+  background-color: khaki;
   margin: auto;
 }
 

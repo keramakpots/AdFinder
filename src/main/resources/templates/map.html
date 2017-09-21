@@ -33,10 +33,10 @@
     </thead>
     <tbody>
     <tr th:each="offer : ${offers}">
-      <td><a th:href="${offer.url}">See offer</a></td>
+      <td><a target="_blank" th:href="${offer.url}">See offer</a></td>
       <td th:text="${offer.title}"></td>
       <td><a th:href="${'https://www.google.com/maps/search/?api=1&amp;query=Krakow+'+offer.street}"
-             th:text="${offer.street}"></a></td>
+             th:text="${offer.street}" target="_blank"></a></td>
       <td>
         <button type="button" class="btn" data-toggle="modal"
                 data-target="#myModal">
@@ -75,6 +75,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDScsZk-txjV2SQXzQQX05E_Gul1W4nkT0&amp;libraries=places&amp;callback=initAutocomplete"
     async="async" defer="defer"></script>
 <input id="pac-input" class="controls" type="text" placeholder="Search"/>
-<div id="map"></div>
+<div style="display: none" id="map"></div>
 </body>
 </html>
