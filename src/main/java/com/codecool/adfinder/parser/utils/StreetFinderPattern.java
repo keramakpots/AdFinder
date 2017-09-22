@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class StreetFinderPattern implements StreetFinderStrategy {
     private Pattern pattern;
-    private final String filename = "streets.txt";
+    private final String filename = "/home/marek/kodowanie/test/Test finder/AdFinder/src/main/resources/streets.txt";
 
     public StreetFinderPattern() {
         createPattern();
