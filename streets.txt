@@ -1649,22 +1649,32 @@
  Krzemionki
  Żaków Krakowskich
  Obrony Tynca
+ Obrony Tyńca
  Lukasza Gornickiego
- Zamknieta
+ Łukasza Górnickiego
+ Zamknięta
+ Zamkniętej
  Ariańska
+ Ariańskiej
  Pustynna
- sw. Filipa
+ Pustynnej
+ św. Filipa
  Gabrieli Zapolskiej
  Wileńska
+ Wileńskiej
  gen. Franciszka Paszkowskiego
  Wewnętrzna
+ Wewnętrznej
  Edwarda Warchalowskiego
  Czyżówka
  Pogodna
+ Pogodnej
  Brzask
  Ćwikłowa
- sw. Krzyza
+ Ćwikłowej
+ św. Krzyża
  Tadeusza Polomskiego
+ Tadeusza Połomskiego
  Cyryla Ratajskiego
  Władysława Raczkiewicza
  Stefana Żeromskiego
@@ -1675,54 +1685,70 @@
  Emila Zegadłowicza
  Zakow Krakowskich
  Toruńska
+ Toruńskiej
  Wincentego Kadlubka
+ Wincentego Kadłubka
  Kolarzy
  Poleglych w Krzeslawicach
- Rafala Czerwiakowskiego
+ Rafała Czerwiakowskiego
  Mieczysława Pszona
- Bohaterow Wietnamu
+ Bohaterów Wietnamu
  Franciszka Zablockiego
  Tatarska
- Feliksa Jasienskiego
- Stanislawa Moniuszki
- Swarozyca
+ Tatarskiej
+ Feliksa Jasieńskiego
+ Stanisława Moniuszki
+ Swarożyca
  Bogdana Włosika
  Stefana Rogozińskiego
  ks. Franciszka Dźwigońskiego
  Hansa Christiana Andersena
- Zygmunta Myslakowskiego
+ Zygmunta Myślakowskiego
  Jana Sawickiego
  prof. Adama Bochnaka
  Na Obrydki
  Jantarowa
+ Jantarowej
  Ludwika Pasteura
  Przegon
  Tuchowska
+ Tuchowskiej
  Gajowa
+ Gajowej
  Jesienna
+ Jesiennej
  Konstantego Brandla
  Leona Wachholza
  Dominikanski
+ Dominikański
  Porzecze
  Husarska
+ Husarskiej
  Podwórkowa
  Myslenicka
- plk. Stanislawa Dabka
+ Myślenicka
+ Myślenickiej
+ płk. Stanisława Dąbka
  Stanisława Zaremby
  Kupały
  Mieczyslawa Maleckiego
  Ofiar Dąbia
  Kamieniecka
+ Kamienieckiej
  Klemensa Bakowskiego
  Jarosławska
+ Jarosławskiej
  Juliana Dunajewskiego
  Jana Mosdorfa
  Jadwigi z Lobzowa
  Lasek
  Na Niwach
  Kościelna
+ Kościelnej
  Dworski Ogrod
+ Dworski Ogród
  Chocholowska
+ Chochołowskiej
  Jana Janowskiego
  Świebodzicka
  Konstantego Jelskiego
