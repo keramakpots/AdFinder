@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class StreetFinderPattern implements StreetFinderStrategy {
     private Pattern pattern;
-    private final String filename = System.getenv("OPENSHIFT_DATA_DIR") + "/streets.txt";
+    private final String filename = System.getenv("OPENSHIFT_HOMEDIR") + "/streets.txt";
 
     public StreetFinderPattern() {
         createPattern();
